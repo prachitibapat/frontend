@@ -16,8 +16,8 @@ def about(request):
     return render(request, 'about.html', {})
 
 
-def booking(request):
-    return render(request, 'booking.html', {})
+def login(request):
+    return render(request, 'login.html', {})
 
 
 def signup(request):
@@ -43,13 +43,6 @@ def signup(request):
     return render(request, 'signup.html', {})
 
 
-def service(request):
-    return render(request, 'service.html', {})
+def cities(request):
+    return render(request, 'cities.html', {})
 
-
-def team(request):
-    return render(request, 'team.html', {})
-
-
-def testimonial(request):
-    return render(request, 'testimonial.html', {})
