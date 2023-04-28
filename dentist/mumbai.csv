@@ -1,0 +1,121 @@
+,Tourist_spot,Area,City,Rating,Categories,Address,coordinates,latitude,longitude
+0,Gateway of India,Wellington Pier,Mumbai,4.0,"['Points of Interest & Landmarks', 'Monuments & Statues']","Gateway of India,Mumbai",Gateway of India,18.922550000000058,72.83417000000003
+1,Marine Drive,South Mumbai,Mumbai,4.5,"['Points of Interest & Landmarks', 'Scenic Drives']","Marine Drive,Mumbai","Marine Drive, Marine Lines, Mumbai, Maharashtra",18.946660000000065,72.82459000000006
+2,Bandra-Worli Sea Link,,Mumbai,4.5,Bridges,"Bandra-Worli Sea Link,Mumbai",Bandra Worli Sea Link,19.043160000000057,72.82446000000004
+3,Shree Siddhivinayak,South Mumbai,Mumbai,4.5,Religious Sites,"Shree Siddhivinayak,Mumbai",Shree Siddhivinayak,18.955290000000048,72.80473000000006
+4,Chhatrapati Shivaji Terminus,Marine Drive,Mumbai,4.5,"['Historic Sites', 'Architectural Buildings']","Chhatrapati Shivaji Terminus,Mumbai",Chhatrapati Shivaji Terminus,18.941110000000037,72.83667000000008
+5,KidZania Mumbai,Western Suburbs,Mumbai,4.5,Amusement & Theme Parks,"KidZania Mumbai,Mumbai","Mumbai, Maharashtra",18.940170000000023,72.83489000000003
+6,Colaba,Colaba,Mumbai,4.5,Neighbourhoods,"Colaba,Mumbai","Colaba, Mumbai, Maharashtra",18.915400000000034,72.82592000000005
+7,Nariman Point,South Mumbai,Mumbai,4.5,Neighbourhoods,"Nariman Point,Mumbai","Nariman Point, Mumbai, Maharashtra",18.925910000000044,72.81887000000006
+8,Elephanta Caves,,Mumbai,4.0,Points of Interest & Landmarks,"Elephanta Caves,Mumbai",Elephanta Building,19.185680000000048,72.85169000000008
+9,Mani Bhavan Gandhi Museum,South Mumbai,Mumbai,4.5,History Museums,"Mani Bhavan Gandhi Museum,Mumbai",Mani Bhavan,18.95977000000005,72.81144000000006
+10,Global Vipassana Pagoda,Gorai,Mumbai,4.5,Monuments & Statues,"Global Vipassana Pagoda,Mumbai",Global Vipassana Pagoda,19.228360000000066,72.80493000000007
+11,Essel World,Western Suburbs,Mumbai,4.0,Amusement & Theme Parks,"Essel World,Mumbai",Essel World,19.23789000000005,72.80623000000008
+12,Mount Mary Basilica,Bandra West,Mumbai,4.5,"['Architectural Buildings', 'Religious Sites']","Mount Mary Basilica,Mumbai",MT Mary Basilica,19.047330000000045,72.82467000000008
+13,Kanheri Caves,Eastern Suburbs,Mumbai,4.5,"['Points of Interest & Landmarks', 'Caverns & Caves']","Kanheri Caves,Mumbai",Kanheri Caves,19.206080000000043,72.90401000000003
+14,Mahalakshmi Temple,South Mumbai,Mumbai,4.5,Religious Sites,"Mahalakshmi Temple,Mumbai",Mahalakshmi Temple Navi Mumbai,19.033920000000023,73.05820000000006
+15,Sri Sri Radha Gopinath Temple,South Mumbai,Mumbai,4.5,Religious Sites,"Sri Sri Radha Gopinath Temple,Mumbai",Sri Sri Radha Gopinath Mandir,18.95796000000007,72.81016000000005
+16,Sanjay Gandhi National Park,Eastern Suburbs,Mumbai,4.0,National Parks,"Sanjay Gandhi National Park,Mumbai","Sanjay Gandhi National Park, Wagle Industry Estate, Mumbai, Mumbai Suburban, Maharashtra",19.166710000000023,72.92988000000008
+17,Juhu Beach,Juhu,Mumbai,3.5,Beaches,"Juhu Beach,Mumbai",Juhu Beach,19.087370000000078,72.82682000000005
+18,Colaba Causeway,Colaba,Mumbai,4.0,Points of Interest & Landmarks,"Colaba Causeway,Mumbai","Colaba Causeway Road, Colaba, Mumbai, Maharashtra, 400001",18.924943231294225,72.8321043632133
+19,Dhobi Ghat,South Mumbai,Mumbai,4.0,Points of Interest & Landmarks,"Dhobi Ghat,Mumbai",Dhobi Ghat,18.982210000000066,72.82529000000005
+20,Haji Ali Mosque,South Mumbai,Mumbai,4.0,"['Points of Interest & Landmarks', 'Religious Sites']","Haji Ali Mosque,Mumbai",Haji Ali Mosque,18.982210000000066,72.80876000000006
+21,Chhatrapati Shivaji Maharaj Vastu Sangrahalaya,South Mumbai,Mumbai,4.5,History Museums,"Chhatrapati Shivaji Maharaj Vastu Sangrahalaya,Mumbai",Chhatrapati Shivaji Maharaj Vastu Sangrahalaya,18.926500000000033,72.83155000000005
+22,Nehru Planetarium,South Mumbai,Mumbai,4.0,Speciality Museums,"Nehru Planetarium,Mumbai",Nehru Planetarium,18.989760000000047,72.81461000000007
+23,Babulnath Temple,South Mumbai,Mumbai,4.5,Religious Sites,"Babulnath Temple,Mumbai",Babulnath Temple,18.958570000000066,72.80826000000008
+24,High Street Phoenix,South Mumbai,Mumbai,4.5,Shopping Malls,"High Street Phoenix,Mumbai",High Street Phoenix,18.993960000000072,72.82505000000003
+25,R City Mall,Western Suburbs,Mumbai,4.5,Shopping Malls,"R City Mall,Mumbai","Mumbai, Maharashtra",18.940170000000023,72.83489000000003
+26,Water Kingdom,Gorai,Mumbai,4.0,Water Parks,"Water Kingdom,Mumbai",Water Kingdom,19.232470000000035,72.80602000000005
+27,Wankhede Stadium,Marine Drive,Mumbai,4.5,Arenas & Stadiums,"Wankhede Stadium,Mumbai","Wankhede Stadium, Churchgate, Mumbai, Maharashtra",18.93802000000005,72.82495000000006
+28,Phoenix Marketcity,Kurla West,Mumbai,4.0,Shopping Malls,"Phoenix Marketcity,Mumbai",Phoenix Marketcity,19.085980000000063,72.88904000000008
+29,Worli Sea Face,South Mumbai,Mumbai,4.5,Points of Interest & Landmarks,"Worli Sea Face,Mumbai","Worli Sea Face, Worli, Mumbai, Maharashtra",19.01239000000004,72.81683000000004
+30,Infiniti Mall,Western Suburbs,Mumbai,4.5,Shopping Malls,"Infiniti Mall,Mumbai",INFINITI Mall,19.141290000000026,72.83149000000003
+31,Jehangir Art Gallery,South Mumbai,Mumbai,4.0,Art Galleries,"Jehangir Art Gallery,Mumbai",Jehangir Art Gallery,18.927050000000065,72.83151000000004
+32,Bombay High Court,South Mumbai,Mumbai,4.0,Architectural Buildings,"Bombay High Court,Mumbai","Bombay High Court, Fort, Mumbai, Maharashtra",18.93172000000004,72.83081000000004
+33,Churchgate Railway Station,Marine Drive,Mumbai,4.0,"['Points of Interest & Landmarks', 'Architectural Buildings']","Churchgate Railway Station,Mumbai",Churchgate,18.93381000000005,72.82717000000008
+34,Jain Temple - Mumbai,South Mumbai,Mumbai,4.5,Religious Sites,"Jain Temple - Mumbai,Mumbai",Jain Temple,18.967310000000055,72.81876000000005
+35,Dharavi,South Mumbai,Mumbai,4.0,Neighbourhoods,"Dharavi,Mumbai","Dharavi, Mumbai, Maharashtra",19.046740000000057,72.85462000000007
+36,Viviana Mall,Open now,Mumbai,4.5,Shopping Malls,"Viviana Mall,Mumbai",Viviana Mall,19.20819000000006,72.97211000000004
+37,Shivaji Park,South Mumbai,Mumbai,4.0,Parks,"Shivaji Park,Mumbai","Shivaji Park, Dadar West, Mumbai, Maharashtra",19.02875000000006,72.83755000000008
+38,Malabar Hill,South Mumbai,Mumbai,4.0,Neighbourhoods,"Malabar Hill,Mumbai","Malabar Hill, Mumbai, Maharashtra",18.950360000000046,72.79579000000007
+39,Mumba Devi Temple,South Mumbai,Mumbai,4.0,Religious Sites,"Mumba Devi Temple,Mumbai",Shree Kamnath Mahadev Mandir,18.952780000000075,72.83008000000007
+40,Oberoi Mall,Goregaon East,Mumbai,4.5,Shopping Malls,"Oberoi Mall,Mumbai",Oberoi Mall,19.174460000000067,72.86074000000008
+41,Crawford Market,South Mumbai,Mumbai,4.0,Flea & Street Markets,"Crawford Market,Mumbai","Crawford Market, CST, Mumbai, Maharashtra",18.949020000000075,72.83801000000005
+42,Prithvi Theatre,Juhu,Mumbai,4.5,Theatres,"Prithvi Theatre,Mumbai",Prithvi Theatre,19.105800000000045,72.82650000000007
+43,Snow Kingdom,Western Suburbs,Mumbai,4.5,Amusement & Theme Parks,"Snow Kingdom,Mumbai",Snow Kingdom,19.099260000000072,72.91695000000004
+44,Priyadarshini Park,South Mumbai,Mumbai,4.5,"['Parks', 'Gardens']","Priyadarshini Park,Mumbai",Priyadarshini Park,19.10614000000004,72.86695000000003
+45,Sri Sri Radha Rasabihari Ji Temple,Western Suburbs,Mumbai,4.5,Points of Interest & Landmarks,"Sri Sri Radha Rasabihari Ji Temple,Mumbai",Shree Radha Rasbihari Ji Mandir,19.113140000000044,72.82622000000003
+46,Willingdon Sports Club,Tardeo,Mumbai,4.5,Sports Complexes,"Willingdon Sports Club,Mumbai",The Willingdon Sports Club,18.978380000000072,72.81352000000004
+47,Chowpatty Beach,Girgaon,Mumbai,3.5,Beaches,"Chowpatty Beach,Mumbai",Chowpatty beach,18.95541000000003,72.80979000000008
+48,Rajabai Clock Tower,South Mumbai,Mumbai,4.0,Points of Interest & Landmarks,"Rajabai Clock Tower,Mumbai",Rajabai Clock Tower,18.929770000000076,72.82973000000004
+49,Linking Road,Bandra West,Mumbai,4.0,Flea & Street Markets,"Linking Road,Mumbai","Linking Road, Khar West, Mumbai, Mumbai Suburban, Maharashtra",19.074050000000057,72.83448000000004
+50,Bhau Daji Lad Museum,Byculla,Mumbai,4.0,Speciality Museums,"Bhau Daji Lad Museum,Mumbai",Dr Bhau Daji Lad Museum,18.97888000000006,72.83477000000005
+51,Lokhandwala Complex Market,Western Suburbs,Mumbai,4.5,Flea & Street Markets,"Lokhandwala Complex Market,Mumbai",Lokhandawala Complex,19.142330000000072,72.82862000000006
+52,Aksa Beach,Western Suburbs,Mumbai,4.0,Beaches,"Aksa Beach,Mumbai","Aksa Beach, Malad West, Mumbai, Mumbai Suburban, Maharashtra",19.173240000000078,72.79628000000008
+53,Chor Bazaar,South Mumbai,Mumbai,4.0,Flea & Street Markets,"Chor Bazaar,Mumbai","Chor Bazar, Grant Road, Mumbai, Maharashtra",18.95995000000005,72.82960000000008
+54,Powai Lake,Eastern Suburbs,Mumbai,3.5,Bodies of Water,"Powai Lake,Mumbai",Powai Lake,19.12390000000005,72.89765000000006
+55,St. Thomas Cathedral,South Mumbai,Mumbai,4.5,"['Architectural Buildings', 'Religious Sites']","St. Thomas Cathedral,Mumbai",St Thomas Cathedral,18.932100000000048,72.83395000000007
+56,Kamala Nehru Park,South Mumbai,Mumbai,4.0,Parks,"Kamala Nehru Park,Mumbai",Kamala Nehru Park,18.955160000000035,72.80476000000004
+57,Mahalakshmi Race Course,South Mumbai,Mumbai,4.5,Horse Tracks,"Mahalakshmi Race Course,Mumbai","Race Course, Mahalakshmi, Mumbai, Maharashtra",18.98004000000003,72.81865000000005
+58,Nehru Science Center,South Mumbai,Mumbai,4.0,Science Museums,"Nehru Science Center,Mumbai","Nehru Science Centre, Worli, Mumbai, Maharashtra",18.99124000000006,72.81864000000007
+59,Hedavde Mahalaxmi Temple,,Mumbai,4.5,Religious Sites,"Hedavde Mahalaxmi Temple,Mumbai","Mahalaxmi Temple Marg, Mahalakshmi-Cumballa Hill, Mumbai, Maharashtra, 400026",18.97725739688232,72.80730997808618
+60,Hanging Gardens,South Mumbai,Mumbai,3.5,Gardens,"Hanging Gardens,Mumbai",Hanging Gardens,18.95655000000005,72.80577000000005
+61,National Centre for the Performing Arts,South Mumbai,Mumbai,4.5,Theatres,"National Centre for the Performing Arts,Mumbai",National Centre for the Performing Arts,18.926060000000064,72.82064000000008
+62,Gorai Beach,Gorai,Mumbai,3.5,Beaches,"Gorai Beach,Mumbai",Gorai Beach,19.241990000000044,72.78148000000004
+63,Ferry to Alibaug,Wellington Pier,Mumbai,4.0,Ferries,"Ferry to Alibaug,Mumbai","Mumbai, Maharashtra",18.940170000000023,72.83489000000003
+64,Palladium Mall,South Mumbai,Mumbai,4.0,Shopping Malls,"Palladium Mall,Mumbai",Palladium,18.993840000000034,72.82501000000008
+65,Jogger's Park,Bandra West,Mumbai,4.0,Parks,"Jogger's Park,Mumbai",Jogger's Park,19.096730000000036,72.90874000000008
+66,Muktaa The Wellness Clinic &amp; Luxury Spa Marine Drive,Marine Drive,Mumbai,5.0,"['Hammams & Turkish Baths', 'Spas']","Muktaa The Wellness Clinic &amp; Luxury Spa Marine Drive,Mumbai","Marine Drive, Marine Lines, Mumbai, Maharashtra",18.946660000000065,72.82459000000006
+67,Bandra Fort,Bandra West,Mumbai,4.0,Historic Sites,"Bandra Fort,Mumbai",Bandra Fort,19.04251000000005,72.81886000000003
+68,Bandstand Promenade,Bandra West,Mumbai,4.0,Points of Interest & Landmarks,"Bandstand Promenade,Mumbai","Bandstand, Bandra West, Mumbai, Mumbai Suburban, Maharashtra",19.047450000000026,72.82065000000006
+69,Town Hall (Asiatic Society Library),South Mumbai,Mumbai,4.0,Libraries,"Town Hall (Asiatic Society Library),Mumbai",The Asiatic Society Mumbai Library,18.931840000000022,72.83641000000006
+70,Growel's 101 Mall,Kandivali,Mumbai,4.0,Shopping Malls,"Growel's 101 Mall,Mumbai",Growels 101,19.203580000000045,72.85958000000005
+71,Mangaldas Market,South Mumbai,Mumbai,4.0,Flea & Street Markets,"Mangaldas Market,Mumbai","Mangaldas Market, Kalbadevi, Mumbai, Maharashtra",18.947670000000073,72.83286000000004
+72,Snow World Mumbai,Kurla West,Mumbai,3.5,Amusement & Theme Parks,"Snow World Mumbai,Mumbai",D World,18.937250000000063,72.83463000000006
+73,Flora Fountain,Wellington Pier,Mumbai,4.0,"['Points of Interest & Landmarks', 'Fountains']","Flora Fountain,Mumbai","Flora Fountain, Fort, Mumbai, Maharashtra",18.931280000000072,72.83181000000008
+74,Nehru Centre,South Mumbai,Mumbai,4.0,Science Museums,"Nehru Centre,Mumbai",Nehru Centre,18.98870000000005,72.81475000000006
+75,PVR Icon,Western Suburbs,Mumbai,4.5,Theatres,"PVR Icon,Mumbai",PVR Icon,19.174460000000067,72.86074000000008
+76,Brihanmumbai Municipal Corporation building,South Mumbai,Mumbai,4.5,"['Historic Sites', 'Architectural Buildings']","Brihanmumbai Municipal Corporation building,Mumbai",Brihanmumbai Municipal Corporation,19.115170000000035,72.87624000000005
+77,Aarey Colony,Western Suburbs,Mumbai,4.0,Nature & Wildlife Areas,"Aarey Colony,Mumbai","Aarey Colony, Goregaon East, Mumbai, Mumbai Suburban, Maharashtra",19.136630000000025,72.88906000000003
+78,Lal Baug Cha Raja,South Mumbai,Mumbai,4.5,Religious Sites,"Lal Baug Cha Raja,Mumbai",Mumbai Cha Raja,18.99487000000005,72.83900000000006
+79,Madh Island,Madh,Mumbai,3.5,"['Islands', 'Beaches']","Madh Island,Mumbai","Madh Island, Mumbai, Mumbai Suburban, Maharashtra",19.146810000000073,72.79064000000005
+80,Girgaum Chowpatty,Girgaon,Mumbai,4.0,Beaches,"Girgaum Chowpatty,Mumbai",Girgaum Chowpatty,18.955750000000023,72.81192000000004
+81,Indian Museum Ship (Vikrant),Wellington Pier,Mumbai,4.0,Ships,"Indian Museum Ship (Vikrant),Mumbai",Museum Ship Vikrant,18.931350000000066,72.84265000000005
+82,Maharashtra Nature Park,South Mumbai,Mumbai,4.0,Parks,"Maharashtra Nature Park,Mumbai","Maharashtra Nature Park, Dharavi, Mumbai, Maharashtra",19.05391000000003,72.86457000000007
+83,Inorbit Mall,Western Suburbs,Mumbai,4.5,Shopping Malls,"Inorbit Mall,Mumbai",Inorbit Mall,19.17294000000004,72.83628000000004
+84,Sassoon Dock,Colaba,Mumbai,4.0,"['Points of Interest & Landmarks', 'Piers & Boardwalks']","Sassoon Dock,Mumbai","Sassoon Dock, Colaba, Mumbai, Maharashtra",18.91456000000005,72.82680000000005
+85,St. Michael's Church,Mahim,Mumbai,4.5,Churches & Cathedrals,"St. Michael's Church,Mumbai",ST. Michaels Church,19.042520000000025,72.84035000000006
+86,Ambreshwar Shiva Temple,,Mumbai,4.5,Religious Sites,"Ambreshwar Shiva Temple,Mumbai",Shiva Temple,19.02908000000002,72.85347000000007
+87,Manori Beach,Manori,Mumbai,4.0,Beaches,"Manori Beach,Mumbai",Manori Beach,19.20673000000005,72.78249000000005
+88,Banganga,South Mumbai,Mumbai,4.0,Religious Sites,"Banganga,Mumbai",Banganga,19.17434000000003,72.87803000000008
+89,Spa by JW,Marol,Mumbai,5.0,Spas,"Spa by JW,Mumbai",Spa,19.10841000000005,72.87526000000008
+90,Andheri Market,Andheri West/Versova,Mumbai,4.0,Flea & Street Markets,"Andheri Market,Mumbai","Andheri Flyover, Vile Parle East, Mumbai, Mumbai Suburban, Maharashtra, 400057",19.109214575414658,72.8536480073504
+91,Mahatma Jyotiba Phule Market,Eastern Suburbs,Mumbai,4.0,"['Points of Interest & Landmarks', 'Architectural Buildings']","Mahatma Jyotiba Phule Market,Mumbai",Mahatma Jyotiba Phule Market,18.949340000000063,72.83126000000004
+92,Kala Ghoda Art Precinct,Western Suburbs,Mumbai,4.5,Points of Interest & Landmarks,"Kala Ghoda Art Precinct,Mumbai","Kala Ghoda, Fort, Mumbai, Maharashtra",18.927250000000072,72.83281000000005
+93,Sukhdaa The Wellness Clinic and Cultural Spa Colaba,Wellington Pier,Mumbai,5.0,Spas,"Sukhdaa The Wellness Clinic and Cultural Spa Colaba,Mumbai","Colaba, Mumbai, Maharashtra",18.915400000000034,72.82592000000005
+94,Talao Pali Lake,South Mumbai,Mumbai,4.0,Bodies of Water,"Talao Pali Lake,Mumbai","Talao Pali Lake Road, Thane West, Thane, Maharashtra, 400601",19.195099994165403,72.97392997563534
+95,Monetary Museum,Vile Parle East,Mumbai,4.5,Speciality Museums,"Monetary Museum,Mumbai",Monetary Museum,18.93405000000007,72.83592000000004
+96,Juhu,Juhu,Mumbai,4.0,Neighbourhoods,"Juhu,Mumbai","Juhu, Dadar East, Mumbai, Maharashtra",19.014920000000075,72.84522000000004
+97,Zaveri Bazaar,South Mumbai,Mumbai,4.0,Flea & Street Markets,"Zaveri Bazaar,Mumbai","Zaveri Bazar, Kalbadevi, Mumbai, Maharashtra",18.950280000000078,72.83157000000006
+98,Sewri Jetty,South Mumbai,Mumbai,4.0,Nature & Wildlife Areas,"Sewri Jetty,Mumbai","Sewri, Mumbai, Maharashtra",18.996390000000076,72.85383000000007
+99,Heera Panna Shopping Center,South Mumbai,Mumbai,3.5,Shopping Malls,"Heera Panna Shopping Center,Mumbai",Heera Panna Shopping Centre,18.977580000000046,72.81027000000006
+100,Horniman Circle Garden,South Mumbai,Mumbai,4.0,Gardens,"Horniman Circle Garden,Mumbai",Horniman Circle Garden,18.931890000000067,72.83561000000003
+101,BB Dadar Market,South Mumbai,Mumbai,4.0,Flea & Street Markets,"BB Dadar Market,Mumbai","Dadar East Chowk, Wadala West, Mumbai, Maharashtra, 400031",19.011266407073606,72.85426691861737
+102,Royal Opera House,Girgaon,Mumbai,4.0,Operas,"Royal Opera House,Mumbai",Royal Opera House,18.956290000000024,72.81575000000004
+103,Mumbai G.P.O,Byculla,Mumbai,4.5,Points of Interest & Landmarks,"Mumbai G.P.O,Mumbai","Mumbai, Maharashtra",18.940170000000023,72.83489000000003
+104,Five Gardens,South Mumbai,Mumbai,4.0,Gardens,"Five Gardens,Mumbai",Five Gardens,19.02009000000004,72.85360000000003
+105,Thiruchembur Murugan Temple,Eastern Suburbs,Mumbai,4.5,Religious Sites,"Thiruchembur Murugan Temple,Mumbai",Murugan Temple,19.037060000000054,72.86927000000003
+106,Bhavan's Nature and Adventure Centre,Vile Parle West,Mumbai,4.5,"['Nature & Wildlife Areas', 'Parks']","Bhavan's Nature and Adventure Centre,Mumbai","Mumbai, Maharashtra",18.940170000000023,72.83489000000003
+107,Cathedral of the Holy Name,Wellington Pier,Mumbai,4.5,Churches & Cathedrals,"Cathedral of the Holy Name,Mumbai",Cathedral of the Holy Name,18.923410000000047,72.83019000000007
+108,Amarsons Garden,South Mumbai,Mumbai,4.5,Gardens,"Amarsons Garden,Mumbai",Amarsons Garden,18.96909000000005,72.80343000000005
+109,Mukteshwar Temple,Juhu,Mumbai,4.5,Points of Interest & Landmarks,"Mukteshwar Temple,Mumbai",Tiveni Dham,19.126070000000027,72.91883000000007
+110,Municipal Laundry,South Mumbai,Mumbai,4.0,Historic Sites,"Municipal Laundry,Mumbai","Mumbai, Maharashtra",18.940170000000023,72.83489000000003
+111,Royal Western India Turf Club,South Mumbai,Mumbai,4.5,Horse Tracks,"Royal Western India Turf Club,Mumbai",Royal Western India Turf Club,18.98281000000003,72.81502000000006
+112,Mumbai Port Trust Garden,Colaba,Mumbai,4.0,Gardens,"Mumbai Port Trust Garden,Mumbai",Mumbai Port Trust Gardens,18.911140000000046,72.82437000000004
+113,Fanaswadi Temple,South Mumbai,Mumbai,4.5,Points of Interest & Landmarks,"Fanaswadi Temple,Mumbai","Fanaswadi, Kalbadevi, Mumbai, Maharashtra",18.952080000000024,72.82721000000004
+114,Funky Monkeys Play Center - Andheri,Western Suburbs,Mumbai,4.0,Playgrounds,"Funky Monkeys Play Center - Andheri,Mumbai","Mumbai, Maharashtra",18.940170000000023,72.83489000000003
+115,Ballard Estate,,Mumbai,4.0,Points of Interest & Landmarks,"Ballard Estate,Mumbai","Ballard Estate, Fort, Mumbai, Maharashtra",18.93548000000004,72.83940000000007
+116,Bhandup Pumping Station,,Mumbai,4.5,Nature & Wildlife Areas,"Bhandup Pumping Station,Mumbai","Bhandup Pumping Station, Mulund East, Mumbai, Mumbai Suburban, Maharashtra",19.143050000000073,72.96214000000003
+117,National Museum of Indian Cinema,South Mumbai,Mumbai,4.5,Speciality Museums,"National Museum of Indian Cinema,Mumbai",National Museum of Indian Cinema,18.97072000000003,72.80808000000007
+118,Afghan Church,Colaba,Mumbai,4.0,Churches & Cathedrals,"Afghan Church,Mumbai",Afghan Church,18.906540000000064,72.81659000000008
+119,Keneseth Eliyahoo Synagogue,South Mumbai,Mumbai,4.0,Religious Sites,"Keneseth Eliyahoo Synagogue,Mumbai",Keneseth Eliyahoo Synagogue,18.92802000000006,72.83252000000005
