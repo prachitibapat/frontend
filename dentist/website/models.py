@@ -13,3 +13,8 @@ class Mumbai(models.Model):
 
 class All_Categories_Mumbai(models.Model):
     categories = models.CharField(max_length=255)
+
+class User_Categories(models.Model):
+    username = models.CharField(max_length=255)
+    categories = models.CharField(max_length=255)
+    all_spots = models.CharField(max_length=510)

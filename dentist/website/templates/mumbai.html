@@ -162,19 +162,20 @@
             <form method="post">
               {% csrf_token %}
               {% if user.is_authenticated %}
-              {% for x in mumbai_try %}
+              {% for x in categories %}
               <label style="color:#FFFFFF">
-                <input type="checkbox" name="category_{{forloop.counter}}" value="category" id="category_{{forloop.counter}}">
-                {{x}}
+                <input type="checkbox" name="category_boxes" value="{{x.categories}}">
+                {{x.categories}}
               </label>
               {% endfor %}
               <br>
               <br>
-              <button type="submit">Submit</button>
+              <input type="hidden" name="action" value="button1">
+              <button type="submit" class="btn btn-primary btn-block">Submit</button>
               {% else %}
-                {% for x in mumbai_try %}
+                {% for x in categories %}
                 <label style="color:#FFFFFF">
-                  {{x}}
+                  {{x.categories}}
                 </label>
                 {% endfor %}
               {% endif %}
@@ -191,6 +192,7 @@
               <div class="d-grid gap-2">
                 <form action="/mumbai.html" method="post">
                   {% csrf_token %}
+                  <input type="hidden" name="action" value="button2">
                   <button type="submit" class="btn btn-primary btn-block" style="width: 100%;">
                     Login
                   </button>

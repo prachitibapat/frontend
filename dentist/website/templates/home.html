@@ -185,15 +185,9 @@
                   </h6>
                   {% if user.is_authenticated %}
                   <h1 class="display-3 text-white mb-4 animated slideInDown">
-                    {{fname}}
+                    {{request.user.first_name}} {{request.user.last_name}}
                   </h1>
                   {% endif %}
-                  <h1 class="display-3 text-white mb-4 animated slideInDown">
-                    {{longitude}}
-                  </h1>
-                  <h1 class="display-3 text-white mb-4 animated slideInDown">
-                    {{latitude}}
-                  </h1>
                   <h5 class="display text-warning mb-4 animated slideInDown">
                     Welcome to our final year project
                   </h5>

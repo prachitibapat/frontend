@@ -10,7 +10,8 @@ urlpatterns = [
     path('signup.html', views.signup, name='signup'),
     path('cities.html', views.cities, name='cities'),
     path('signout', views.signout, name="signout"),
-    path('mumbai.html', views.mumbai, name="signout")
+    path('mumbai.html', views.mumbai, name="mumbai"),
+    path('location_show.html', views.location_show, name="location_show")
     # path('team.html', views.team, name='team'),
     # path('testimonial.html', views.testimonial, name='testimonial')
 ]
