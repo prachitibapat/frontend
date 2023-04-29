@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 
-from website.models import All_Categories_Mumbai, Mumbai, User_Categories
+from website.models import All_Categories_Mumbai, Mumbai, User_Categories, User_Output
 
 from selenium.webdriver import Chrome, ChromeOptions
 from selenium.webdriver.common.by import By
@@ -91,6 +91,10 @@ def signup(request):
         user_categories = User_Categories()
         user_categories.username = username
         user_categories.save()
+
+        user_output = User_Output()
+        user_output.username = username
+        user_output
 
         messages.success(
             request, "Your Account has been created succesfully")
@@ -246,7 +250,7 @@ def mumbai(request):
             #Will be used for folium maps
             top_loc_lat_lon = googleapi_resource_extraction()
             print(top_loc_lat_lon)
-            print(top_loc_name_dis_time)
+            print(type(top_loc_name_dis_time))
 
             #Making a Distance Matrix
             def get_distance_matrix(locations):
@@ -270,7 +274,7 @@ def mumbai(request):
                         continue
                     link_main = link_main + str(y[0]) + '%2C' + str(y[1]) + '%7C'
                 link_main = link_main + str(actual_route_sequence[-1][0]) + '%2C' + str(actual_route_sequence[-1][1])
-                link_main = link_main + '&key=' + api_key
+                link_main = link_main + '&key=' + 'AIzaSyDyF68-OxQ439I_Mg9yWVi0OhXfTpoTra4'
                 
                 payload={}
                 headers = {}
@@ -298,7 +302,7 @@ def mumbai(request):
                 for x in range(len(algoritm_sequence)-1):
                     link_main = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + str(actual_route_sequence[algoritm_sequence[x]][0]) + '%2C' + str(actual_route_sequence[algoritm_sequence[x]][1]) + '&destinations='
                     link_main = link_main + str(actual_route_sequence[algoritm_sequence[x+1]][0]) + '%2C' + str(actual_route_sequence[algoritm_sequence[x+1]][1])
-                    link_main = link_main + '&key=' + api_key
+                    link_main = link_main + '&key=' + 'AIzaSyDyF68-OxQ439I_Mg9yWVi0OhXfTpoTra4'
                     
                     #Intilizing GoogleAPI parameters
                     url = link_main
@@ -526,7 +530,19 @@ def mumbai(request):
             print("Total distance: ", simulated_annealing_distance, "meters")
 
             #'categories': categories_list,"mumbai_try": mumbai_data
-            context = {}
+            context = {'TT': tabu_total_time,"TD": tabu_distance,
+                       'GT': genetic_route_total_time,"GD": genetic_distance,
+                       'ST': simulated_annealing_total_time,"SD": simulated_annealing_distance,
+                       'TLNDT': top_loc_name_dis_time}
+            user_output = User_Output.objects.get(username=Username_current)
+            user_output.tabu_total_time = tabu_total_time
+            user_output.tabu_distance = tabu_distance
+            user_output.genetic_route_total_time =genetic_route_total_time
+            user_output.genetic_distance = genetic_distance
+            user_output.simulated_annealing_total_time = simulated_annealing_total_time
+            user_output.simulated_annealing_distance = simulated_annealing_distance
+            user_output.top_loc_name_dis_time = top_loc_name_dis_time
+            user_output.save()
 
             return render(request, "location_show.html", context)
 
@@ -547,18 +563,35 @@ def mumbai(request):
 
             filtered_categories = []
             
+            # i=0
+            # for cat in mumbai_data_categories:
+            #     i = i+1
+            #     for req in user_categories:
+            #         if req in cat:
+            #             City_Location_Name = Mumbai.objects.get(id=i)
+            #             filtered_categories.append(City_Location_Name.Tourist_spot)
+            #             break
+            #         else:
+            #             filtered_categories.append("Null")
+            #             break
+            # print(filtered_categories)
+
+            filtered_categories = []
+
             i=0
             for cat in mumbai_data_categories:
                 i = i+1
+                found = False
                 for req in user_categories:
                     if req in cat:
                         City_Location_Name = Mumbai.objects.get(id=i)
                         filtered_categories.append(City_Location_Name.Tourist_spot)
+                        found = True
                         break
-                    else:
-                        filtered_categories.append("Null")
-                        break
+                if not found:
+                    filtered_categories.append("Null")
             print(filtered_categories)
+
 
             user_categories_object.all_spots = filtered_categories
             user_categories_object.save()
@@ -575,5 +608,22 @@ def mumbai(request):
 
     return render(request, 'mumbai.html', context)
 
+
+
 def location_show(request):
-    return render(request, 'location_show.html', {})
+    Username_current = request.user.username
+    user_output = User_Output.objects.get(username=Username_current)
+    tabu_total_time = user_output.tabu_total_time
+    tabu_distance = user_output.tabu_distance
+    genetic_route_total_time = user_output.genetic_route_total_time
+    genetic_distance = user_output.genetic_distance
+    simulated_annealing_total_time = user_output.simulated_annealing_total_time
+    simulated_annealing_distance = user_output.simulated_annealing_distance
+    top_loc_name_dis_time = user_output.top_loc_name_dis_time
+    context = {'TT': tabu_total_time,"TD": tabu_distance,
+               'GT': genetic_route_total_time,"GD": genetic_distance,
+               'ST': simulated_annealing_total_time,"SD": simulated_annealing_distance,
+               'TLNDT': top_loc_name_dis_time}
+    print(top_loc_name_dis_time)
+    print(type(top_loc_name_dis_time))
+    return render(request, 'location_show.html', context)

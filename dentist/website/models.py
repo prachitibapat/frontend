@@ -18,3 +18,13 @@ class User_Categories(models.Model):
     username = models.CharField(max_length=255)
     categories = models.CharField(max_length=255)
     all_spots = models.CharField(max_length=510)
+
+class User_Output(models.Model):
+    username = models.CharField(max_length=255)
+    tabu_total_time = models.CharField(max_length=510)
+    tabu_distance = models.CharField(max_length=510)
+    genetic_route_total_time = models.CharField(max_length=510)
+    genetic_distance = models.CharField(max_length=510)
+    simulated_annealing_total_time = models.CharField(max_length=510)
+    simulated_annealing_distance = models.CharField(max_length=510)
+    top_loc_name_dis_time = models.CharField(max_length=100000)
