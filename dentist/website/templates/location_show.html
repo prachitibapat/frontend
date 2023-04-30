@@ -192,17 +192,50 @@
         <!-- Contact Start -->
         <div class="container-xxl py-5">
             <div class="container">
-              <h4>
-                <h4>
-                  <p> Total Distance Taken by Tabu Search: {{ TD }} meters</p><br>
-                  <p> Total Distance Taken by Genetic Algorithm: {{ GD }} meters</p><br>
-                  <p> Total Distance Taken by Simulated Annealing: {{ SD }} meters</p><br>
-                </h4>
-                <body>
-                  <h1>Tourist Spots</h1>
-                  {{ html_table }}
-                </body>
-              </h4>
+              <style>
+                table {
+                  border-collapse: collapse;
+                  width: 100%;
+                }
+                
+                th, td {
+                  border: 1px solid black;
+                  text-align: left;
+                  padding: 8px;
+                }
+                
+                td {
+                  font-weight: normal;
+                }
+                </style>
+                
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Tourist Spot</th>
+                      <th>Distance in Meters</th>
+                      <th>Duration in Seconds</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for x in TLNDT %}
+                    <tr>
+                      <td>{{ x.Tourist_spot }}</td>
+                      <td>{{ x.Distance_Meters }}</td>
+                      <td>{{ x.Duration_Seconds }}</td>
+                    </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+              <br> 
+              <h6>
+                <p> Total Distance Taken by Tabu Search: {{ TD }} meters</p><br>
+                <p> Total Distance Taken by Genetic Algorithm: {{ GD }} meters</p><br>
+                <p> Total Distance Taken by Simulated Annealing: {{ SD }} meters</p><br>
+                <p> Best Route Obtained : {{ BR }}</p><br>
+                <p> Best Route Obtained : {{ RO }}</p><br>
+              </h6>
+              
 
                 {% comment %} <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="section-title text-center text-primary text-uppercase">Contact Us</h6>

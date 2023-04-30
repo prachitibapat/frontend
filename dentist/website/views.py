@@ -22,6 +22,7 @@ import numpy as np
 import io
 import random
 import math
+import ast
 
 def home(request):
     return render(request, 'home.html', {})
@@ -249,8 +250,8 @@ def mumbai(request):
             
             #Will be used for folium maps
             top_loc_lat_lon = googleapi_resource_extraction()
-            print(top_loc_lat_lon)
-            print(type(top_loc_name_dis_time))
+            data_list = top_loc_name_dis_time.to_dict('records')
+            
 
             #Making a Distance Matrix
             def get_distance_matrix(locations):
@@ -533,15 +534,19 @@ def mumbai(request):
             context = {'TT': tabu_total_time,"TD": tabu_distance,
                        'GT': genetic_route_total_time,"GD": genetic_distance,
                        'ST': simulated_annealing_total_time,"SD": simulated_annealing_distance,
-                       'TLNDT': top_loc_name_dis_time}
+                       'TLNDT': data_list}
             user_output = User_Output.objects.get(username=Username_current)
+            user_output.current_location = current_location
             user_output.tabu_total_time = tabu_total_time
             user_output.tabu_distance = tabu_distance
             user_output.genetic_route_total_time =genetic_route_total_time
             user_output.genetic_distance = genetic_distance
             user_output.simulated_annealing_total_time = simulated_annealing_total_time
             user_output.simulated_annealing_distance = simulated_annealing_distance
-            user_output.top_loc_name_dis_time = top_loc_name_dis_time
+            user_output.top_loc_name_dis_time = data_list
+            user_output.tabu_route = tabu_route
+            user_output.genetic_route = genetic_route
+            user_output.simulated_annealing_route = simulated_annealing_route
             user_output.save()
 
             return render(request, "location_show.html", context)
@@ -608,11 +613,14 @@ def mumbai(request):
 
     return render(request, 'mumbai.html', context)
 
+    
+
 
 
 def location_show(request):
     Username_current = request.user.username
     user_output = User_Output.objects.get(username=Username_current)
+    current_location = user_output.current_location
     tabu_total_time = user_output.tabu_total_time
     tabu_distance = user_output.tabu_distance
     genetic_route_total_time = user_output.genetic_route_total_time
@@ -620,10 +628,31 @@ def location_show(request):
     simulated_annealing_total_time = user_output.simulated_annealing_total_time
     simulated_annealing_distance = user_output.simulated_annealing_distance
     top_loc_name_dis_time = user_output.top_loc_name_dis_time
+    top_loc_name_dis_time = ast.literal_eval(top_loc_name_dis_time)
+    tabu_route = user_output.tabu_route
+    tabu_route = ast.literal_eval(tabu_route)
+    genetic_route = user_output.genetic_route
+    genetic_route = ast.literal_eval(genetic_route)
+    simulated_annealing_route = user_output.simulated_annealing_route
+    simulated_annealing_route = ast.literal_eval(simulated_annealing_route)
+    if tabu_distance <= genetic_distance and tabu_distance <= simulated_annealing_distance:
+        best_route = tabu_route
+    elif genetic_distance <= simulated_annealing_distance:
+        best_route = genetic_route
+    else:
+        best_route = simulated_annealing_route
+
+    route_order = [top_loc_name_dis_time[i]['Tourist_spot'] for i in best_route]
+    route_order.insert(0, current_location)
+    
     context = {'TT': tabu_total_time,"TD": tabu_distance,
                'GT': genetic_route_total_time,"GD": genetic_distance,
                'ST': simulated_annealing_total_time,"SD": simulated_annealing_distance,
-               'TLNDT': top_loc_name_dis_time}
-    print(top_loc_name_dis_time)
-    print(type(top_loc_name_dis_time))
+               'TLNDT': top_loc_name_dis_time, 
+               'TR': tabu_route,
+               'GR' : genetic_route,
+               'SAR' : simulated_annealing_route,
+               'BR' : best_route,
+               'CL' : current_location,
+               'RO' : route_order}
     return render(request, 'location_show.html', context)
