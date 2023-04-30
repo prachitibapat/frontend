@@ -549,7 +549,7 @@ def mumbai(request):
             user_output.simulated_annealing_route = simulated_annealing_route
             user_output.save()
 
-            return render(request, "location_show.html", context)
+            return redirect('location_show')   
 
         elif request.POST.get('action') == 'button1':
             categories_order_list = request.POST.getlist('category_boxes')
@@ -641,8 +641,44 @@ def location_show(request):
         best_route = genetic_route
     else:
         best_route = simulated_annealing_route
+        
+    # Print the text version of the best route
+    print("The best route to visit the tourist spots is as follows:")
+    locations = [top_loc_name_dis_time[i-1]['Tourist_spot'] for i in best_route[1:]]
+    route_text = f"Starting from your current location, visit {', '.join(locations[:-1])}, and {locations[-1]}."
+    print(route_text)
 
     print(top_loc_name_dis_time)
+    
+    
+    m = folium.Map(location=[19.0760, 72.8777], zoom_start=12)
+
+    tourist_spots = []
+    tourist_spots.append
+
+    # add markers for each tourist spot
+    for spot in top_loc_name_dis_time:
+        tourist_spot = spot['Tourist_spot']
+        mumbai_spot = Mumbai.objects.get(Tourist_spot=tourist_spot)
+        print(mumbai_spot)
+        lat = mumbai_spot.latitude
+        lon = mumbai_spot.longitude
+        tourist_spots.append({'name': tourist_spot, 'latitude':  lat , 'longitude': lon})
+    
+    print(tourist_spots)
+
+    # Create a map centered at Mumbai
+    current_location = ast.literal_eval(current_location)
+    map = folium.Map(location=current_location, zoom_start=14)
+    folium.Marker(location=[current_location[0], current_location[1]], icon=folium.Icon(color='pink')).add_to(map)
+
+    # Add markers for each tourist spot
+    for spot in tourist_spots:
+        folium.Marker(location=[spot["latitude"], spot["longitude"]], popup=spot["name"], icon=folium.Icon(color='purple')).add_to(map)
+    
+    
+    # Convert the map to HTML and pass it to the template
+    map_html = map._repr_html_()
     
     context = {'TT': tabu_total_time,"TD": tabu_distance,
                'GT': genetic_route_total_time,"GD": genetic_distance,
@@ -652,6 +688,6 @@ def location_show(request):
                'GR' : genetic_route,
                'SAR' : simulated_annealing_route,
                'BR' : best_route,
-               'CL' : current_location,
-               'RO' : route_order}
+               'CL' : route_text,
+               'MAPS' : map_html}
     return render(request, 'location_show.html', context)
