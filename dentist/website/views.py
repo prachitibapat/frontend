@@ -676,7 +676,6 @@ def location_show(request):
     for spot in tourist_spots:
         folium.Marker(location=[spot["latitude"], spot["longitude"]], popup=spot["name"], icon=folium.Icon(color='purple')).add_to(map)
     
-    
     # Convert the map to HTML and pass it to the template
     map_html = map._repr_html_()
     
