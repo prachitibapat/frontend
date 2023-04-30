@@ -642,8 +642,7 @@ def location_show(request):
     else:
         best_route = simulated_annealing_route
 
-    route_order = [top_loc_name_dis_time[i]['Tourist_spot'] for i in best_route]
-    route_order.insert(0, current_location)
+    print(top_loc_name_dis_time)
     
     context = {'TT': tabu_total_time,"TD": tabu_distance,
                'GT': genetic_route_total_time,"GD": genetic_distance,
