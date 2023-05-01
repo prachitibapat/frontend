@@ -1,0 +1,121 @@
+,Tourist_spot,Area,City,Rating,Categories,Address,coordinates,latitude,longitude
+0,Kapaleeshwarar Temple,Open now,Chennai,4.5,Religious Sites,"Kapaleeshwarar Temple,Chennai",Kapaleeshwarar Temple,13.03421000000003,80.27001000000007
+1,VGP Snow Kingdom,Open now,Chennai,5.0,Amusement & Theme Parks,"VGP Snow Kingdom,Chennai",VGP Snow Kingdom,12.913270000000068,80.25116000000008
+2,Marina Beach,Open now,Chennai,4.0,Beaches,"Marina Beach,Chennai","Marina Beach, Chepauk, Chennai, Tamil Nadu",13.060870000000023,80.28328000000005
+3,Besant Nagar Beach,Besant Nagar,Chennai,4.0,Beaches,"Besant Nagar Beach,Chennai",Besant Nagar Beach,13.000870000000077,80.27109000000007
+4,San Thome Church,Mylapore,Chennai,4.5,"['Architectural Buildings', 'Religious Sites']","San Thome Church,Chennai",Santhome Church,13.033400000000029,80.27788000000004
+5,Express Avenue Mall,Royapettah,Chennai,4.0,Shopping Malls,"Express Avenue Mall,Chennai",Express Avenue Mall,13.059150000000045,80.26410000000004
+6,Mylapore,Mylapore,Chennai,4.5,Neighbourhoods,"Mylapore,Chennai","Mylapore, Chennai, Tamil Nadu",13.031550000000038,80.26022000000006
+7,Parthasarathy Temple,Royapettah,Chennai,4.5,Religious Sites,"Parthasarathy Temple,Chennai",Parthasarathy Temple,12.987280000000055,80.21179000000006
+8,VGP Marine Kingdom,Open now,Chennai,4.5,Aquariums,"VGP Marine Kingdom,Chennai",VGP Marine Kingdom,12.914030000000025,80.25323000000003
+9,Shirdi Sai Baba Temple,,Chennai,4.5,Religious Sites,"Shirdi Sai Baba Temple,Chennai",Shirdi Sai Baba Temple,12.791430000000048,80.22322000000008
+10,Ramakrishna Temple,Mylapore,Chennai,4.5,Religious Sites,"Ramakrishna Temple,Chennai",S. S. Jain Prayer Hall,12.926900000000046,80.11521000000005
+11,Chennai Central Railway Station,Open now,Chennai,4.0,"['Points of Interest & Landmarks', 'Architectural Buildings']","Chennai Central Railway Station,Chennai",Chennai Central Railway Station,13.082790000000045,80.27381000000008
+12,"T Nagar, Ranganathan Street",Royapettah,Chennai,4.0,"['Points of Interest & Landmarks', 'Flea & Street Markets']","T Nagar, Ranganathan Street,Chennai",Ranganathan Street,13.037590000000023,80.22941000000003
+13,Vadapalani Murugan Temple,Vadapalani,Chennai,4.5,Religious Sites,"Vadapalani Murugan Temple,Chennai",Vadapalani Murugan Temple,13.05251000000004,80.21357000000006
+14,Viswaroopa Adhivyadhihara Sri Bhaktha Anjaneyaswami Temple,,Chennai,4.5,Religious Sites,"Viswaroopa Adhivyadhihara Sri Bhaktha Anjaneyaswami Temple,Chennai",Viswaroopa Adhivyadhihara Sri Bhaktha Anjaneyaswami Temple,12.986290000000054,80.19404000000003
+15,VGP Universal Kingdom,Thiruvanmiyur East,Chennai,4.0,Amusement & Theme Parks,"VGP Universal Kingdom,Chennai",VGP Universal Kingdom,12.914030000000025,80.25323000000003
+16,Kamakshi Amman Temple,Nungambakkam/Marina Beach,Chennai,4.5,"['Points of Interest & Landmarks', 'Religious Sites']","Kamakshi Amman Temple,Chennai",Kamakshi Amman Temple,13.194180000000074,80.17200000000008
+17,"ISKCON Chennai, Sri Sri Radha Krishna Temple",Open now,Chennai,4.5,Religious Sites,"ISKCON Chennai, Sri Sri Radha Krishna Temple,Chennai",Sri Sri Radha Krishna Temple,12.905750000000069,80.24200000000008
+18,The Anna Centenary Library,,Chennai,4.5,Libraries,"The Anna Centenary Library,Chennai",Anna Centenary Library,13.016840000000059,80.24074000000007
+19,Arignar Anna Zoological Park,Open now,Chennai,4.0,Zoos,"Arignar Anna Zoological Park,Chennai",Arignar Anna Zoological Park-Entrance 1,12.878970000000038,80.08091000000007
+20,Chennai Rail Museum,Open now,Chennai,4.5,"['Speciality Museums', ""Children's Museums""]","Chennai Rail Museum,Chennai",Chennai Rail Museum,13.100390000000061,80.20741000000004
+21,Guindy Snake Park,Adyar,Chennai,4.0,Nature & Wildlife Areas,"Guindy Snake Park,Chennai",Chennai Snake Park,13.00690000000003,80.23961000000008
+22,Chennai Metro Rail,,Chennai,4.5,Public Transportation Systems,"Chennai Metro Rail,Chennai",Chennai Metro Rail,13.052970000000073,80.25779000000006
+23,St. Thomas Mount National Shrine,Royapettah,Chennai,4.5,Religious Sites,"St. Thomas Mount National Shrine,Chennai","ST.Thomas Mount, Chennai, Tamil Nadu",13.007990000000063,80.19599000000005
+24,Kalikambal Temple,,Chennai,4.5,Religious Sites,"Kalikambal Temple,Chennai",Shri Kaalikambal Temple,13.094360000000052,80.28925000000004
+25,Marundeeswarar Temple,Thiruvanmiyur East,Chennai,4.5,Religious Sites,"Marundeeswarar Temple,Chennai",Marundeeswarar Temple,12.985020000000077,80.25961000000007
+26,Elliot's Beach,Adyar,Chennai,4.0,Beaches,"Elliot's Beach,Chennai",Elliot’s Beach,13.001390000000072,80.27417000000008
+27,Government Museum,Egmore,Chennai,3.5,Speciality Museums,"Government Museum,Chennai",Government Museum,13.07114000000007,80.25776000000008
+28,Ashtalakshmi Temple,Besant Nagar,Chennai,4.5,Religious Sites,"Ashtalakshmi Temple,Chennai",Ashtalakshmi Temple,12.99288000000007,80.27044000000006
+29,Cholamandal Artists' Village,,Chennai,4.0,Art Museums,"Cholamandal Artists' Village,Chennai","Cholamandal Artists Village, Injambakkam, Chennai, Kancheepuram, Tamil Nadu",12.92136000000005,80.25288000000006
+30,Vivekananda House,Open now,Chennai,4.5,Historic Sites,"Vivekananda House,Chennai",Vivekananda House,13.049410000000023,80.28061000000008
+31,Queens Land,Open now,Chennai,4.0,Amusement & Theme Parks,"Queens Land,Chennai",Queens Land,13.028650000000027,80.03039000000007
+32,"Indian Institute Of Technology, Madras",Adyar,Chennai,4.5,Points of Interest & Landmarks,"Indian Institute Of Technology, Madras,Chennai","Indian Institute of Technology, Madras, Chennai, Tamil Nadu",12.995650000000069,80.23758000000004
+33,Matsya Narayana Temple,Open now,Chennai,5.0,Religious Sites,"Matsya Narayana Temple,Chennai","M V Narayana Swami Street, Manali, Chennai, Thiruvallur, Tamil Nadu, 600068",13.159480005576967,80.25945997343374
+34,Shirdi Sai Baba Temple,Mylapore,Chennai,4.5,Religious Sites,"Shirdi Sai Baba Temple,Chennai",Shirdi Sai Baba Temple,12.791430000000048,80.22322000000008
+35,Ananthaa Padmanabha Swaamy Temple,,Chennai,4.5,Religious Sites,"Ananthaa Padmanabha Swaamy Temple,Chennai",Sri Anantha Padmanabha Swamy Temple,13.008050000000026,80.25770000000006
+36,Aarupadai Veedu Temple,Besant Nagar,Chennai,4.5,Religious Sites,"Aarupadai Veedu Temple,Chennai",Aarupadaiveedu Temple,12.989320000000077,80.26849000000004
+37,Mahalingapuram Sree Ayyappa Temple,Nungambakkam,Chennai,4.5,Points of Interest & Landmarks,"Mahalingapuram Sree Ayyappa Temple,Chennai","Mahalingapuram, Nungambakkam, Chennai, Tamil Nadu",13.054700000000025,80.23475000000008
+38,Pondy Bazaar,George Town/Parry’s Corner,Chennai,4.0,Neighbourhoods,"Pondy Bazaar,Chennai","Pondy Bazaar, T Nagar, Chennai, Tamil Nadu",13.04093000000006,80.23828000000003
+39,Little Mount Shrine,Open now,Chennai,4.5,Religious Sites,"Little Mount Shrine,Chennai","Little Mount, Guindy, Chennai, Tamil Nadu",13.010980000000075,80.22368000000006
+40,The Huddleston Gardens of Theosophical Society,,Chennai,4.5,Gardens,"The Huddleston Gardens of Theosophical Society,Chennai",Theosophical Society,13.008020000000045,80.26415000000003
+41,Chetpet EcoPark,,Chennai,4.5,"['Parks', 'Jogging Paths & Tracks']","Chetpet EcoPark,Chennai",Chetpet Eco Park,13.077310000000068,80.24118000000004
+42,Light House,Thiruvanmiyur East,Chennai,4.0,"['Points of Interest & Landmarks', 'Lighthouses']","Light House,Chennai","Light House, Mylapore, Chennai, Tamil Nadu",13.043390000000045,80.27661000000006
+43,Kundrathur Murugan Temple,,Chennai,4.5,Points of Interest & Landmarks,"Kundrathur Murugan Temple,Chennai",Kunrathur Murugan Temple,12.985060000000033,80.09313000000003
+44,"Jagannath Temple, Kanathur",,Chennai,4.5,Religious Sites,"Jagannath Temple, Kanathur,Chennai",Sri Jaganath Temple,12.850280000000055,80.24574000000007
+45,Muttukadu Lake,,Chennai,3.5,Bodies of Water,"Muttukadu Lake,Chennai",Muttukadu Lake,12.80585000000002,80.24278000000004
+46,Kovalam Beach,,Chennai,3.5,Beaches,"Kovalam Beach,Chennai",Kovalam Beach,12.937090000000069,80.25901000000005
+47,Armenian Church,George Town/Parry’s Corner,Chennai,4.0,Churches & Cathedrals,"Armenian Church,Chennai",Armenian Church,13.08907000000005,80.28695000000005
+48,Parry's Corner,George Town/Parry’s Corner,Chennai,4.0,Neighbourhoods,"Parry's Corner,Chennai","Parrys Corner, Park Town, Chennai, Tamil Nadu",13.085470000000043,80.28374000000008
+49,Patalathri Narasimhar Temple,,Chennai,5.0,Religious Sites,"Patalathri Narasimhar Temple,Chennai","Chennai, Tamil Nadu",13.083750000000066,80.28256000000005
+50,Fort St,,Chennai,3.5,"['Historic Sites', 'Neighbourhoods']","Fort St,Chennai","Chennai, Tamil Nadu",13.083750000000066,80.28256000000005
+51,Gandhi Statue,Thiruvanmiyur East,Chennai,4.0,"['Points of Interest & Landmarks', 'Monuments & Statues']","Gandhi Statue,Chennai",Gandhi Statue,20.554520000000025,74.52590000000004
+52,Kumaran Kundram,,Chennai,4.5,Religious Sites,"Kumaran Kundram,Chennai",Kumaran Kundram,12.941920000000039,80.14297000000005
+53,Chennai Citi Center,Mylapore,Chennai,3.5,Shopping Malls,"Chennai Citi Center,Chennai",Chennai Citi Centre,13.042760000000044,80.27434000000005
+54,M.A.Chidambaram Stadium,Vadapalani,Chennai,4.5,Arenas & Stadiums,"M.A.Chidambaram Stadium,Chennai",M. A. Chidambaram Stadium,13.064460000000054,80.27946000000009
+55,Sringeri Saradha Peetam Temple,,Chennai,4.5,Religious Sites,"Sringeri Saradha Peetam Temple,Chennai",Sri Sringeri Jagadguru Maha Samsthanam Sarada Peedam,13.100070000000073,80.27931000000007
+56,Thiruvidanthai Temple,,Chennai,4.5,Religious Sites,"Thiruvidanthai Temple,Chennai","Thiruvidanthai, Chennai, Kancheepuram, Tamil Nadu",12.760540000000049,80.24464000000006
+57,Spencer Plaza,Nungambakkam,Chennai,3.5,Shopping Malls,"Spencer Plaza,Chennai",Spencer Plaza,13.061210000000074,80.26167000000004
+58,Padi Sivan Temple,,Chennai,4.5,Points of Interest & Landmarks,"Padi Sivan Temple,Chennai",Sivan Temple,13.178540000000055,80.07050000000004
+59,Ranganatha Temple,,Chennai,4.5,Religious Sites,"Ranganatha Temple,Chennai",Sri Sirvi Samaj,13.025330000000054,80.15222000000006
+60,Chokhi Dhani,Open now,Chennai,3.5,Points of Interest & Landmarks,"Chokhi Dhani,Chennai","Chennai, Tamil Nadu",13.083750000000066,80.28256000000005
+61,Breezy Beach,,Chennai,4.5,Beaches,"Breezy Beach,Chennai","Breezy Beach Road, Tiruvanmiyur, Chennai, Tamil Nadu, 600041",12.97078494000344,80.2655637612068
+62,B M Birla Planaturium,Open now,Chennai,3.5,Observatories & Planetariums,"B M Birla Planaturium,Chennai",B. M. Birla Planetarium,13.011980000000051,80.24380000000008
+63,Anna Nagar Tower Park,,Chennai,4.5,"['State Parks', 'National Parks']","Anna Nagar Tower Park,Chennai",Anna Nagar Tower Park-Entrance 1,13.086290000000076,80.21299000000005
+64,Guindy National Park,,Chennai,4.0,National Parks,"Guindy National Park,Chennai",Guindy National Park,13.006860000000074,80.23964000000007
+65,Semmozhi Poonga,Teynampet,Chennai,4.0,"['Parks', 'Gardens']","Semmozhi Poonga,Chennai",Semmozhi,13.091140000000053,80.18214000000006
+66,Sowcarpet,George Town/Parry’s Corner,Chennai,4.0,Neighbourhoods,"Sowcarpet,Chennai","Sowcarpet, George Town, Chennai, Tamil Nadu",13.090990000000033,80.28342000000004
+67,VGP Golden Beach,Thiruvanmiyur East,Chennai,3.5,Beaches,"VGP Golden Beach,Chennai",V. G. P. Golden Beach,12.911150000000077,80.25543000000005
+68,MGR Memorial,Royapettah,Chennai,4.0,"['Historic Sites', 'Points of Interest & Landmarks']","MGR Memorial,Chennai",M G R Memorial,13.064180000000022,80.28377000000006
+69,Fort Museum,,Chennai,3.5,Speciality Museums,"Fort Museum,Chennai",Fort Museum,13.080310000000054,80.28812000000005
+70,Chennai Turtle Walk,,Chennai,4.5,Nature & Wildlife Areas,"Chennai Turtle Walk,Chennai","Chennai, Tamil Nadu",13.083750000000066,80.28256000000005
+71,The Rajiv Gandhi Memorial,,Chennai,4.0,Monuments & Statues,"The Rajiv Gandhi Memorial,Chennai",Rajiv Gandhi Memorial Telecommunication Training Centre,12.990240000000028,80.18003000000004
+72,Skywalk (ampa Mall),,Chennai,3.5,Shopping Malls,"Skywalk (ampa Mall),Chennai",Ampa Skywalk,13.074250000000063,80.22157000000004
+73,VR Chennai,,Chennai,4.0,Shopping Malls,"VR Chennai,Chennai",VR Chennai,13.080620000000067,80.19849000000005
+74,St Mary's Church,,Chennai,4.0,Churches & Cathedrals,"St Mary's Church,Chennai",St Mary's Church,13.078980000000058,80.28783000000004
+75,National Art Gallery,Egmore,Chennai,4.0,Art Museums,"National Art Gallery,Chennai",National Art Gallery,13.06982000000005,80.25712000000004
+76,Connemara Public Library,Egmore,Chennai,4.5,Libraries,"Connemara Public Library,Chennai",Connemara Public Library,13.069810000000075,80.25705000000005
+77,University of Madras,Royapettah,Chennai,4.0,Architectural Buildings,"University of Madras,Chennai","University of Madras, Chepauk, Chennai, Tamil Nadu",13.06588000000005,80.28216000000003
+78,Thiruverkadu Devi Karumariamman Temple,,Chennai,4.5,Religious Sites,"Thiruverkadu Devi Karumariamman Temple,Chennai",Sri Devi Karumaryamman Aadhina Alayam,13.066470000000038,80.13654000000008
+79,Saravana Stores,,Chennai,4.0,Shopping Malls,"Saravana Stores,Chennai",Saravana Stores,13.064690000000041,80.13755000000003
+80,Sathyam Cinemas,Royapettah,Chennai,4.5,Cinemas,"Sathyam Cinemas,Chennai",Sathyam Cinemas,13.055260000000033,80.25783000000007
+81,Madras War Cemetery,,Chennai,4.5,Cemeteries,"Madras War Cemetery,Chennai",Madras War Cemetery,13.013940000000048,80.19396000000006
+82,Mayajaal Entertainment,Open now,Chennai,3.0,Theatres,"Mayajaal Entertainment,Chennai",Mayajaal Entertainment,12.84836000000007,80.24077000000005
+83,Children's Park,,Chennai,3.5,Parks,"Children's Park,Chennai",Children's Park,13.12656000000004,80.09262000000007
+84,Pothys Hyper,T. Nagar,Chennai,4.5,Shopping Malls,"Pothys Hyper,Chennai",Pothys Hyper,13.035460000000057,80.23044000000004
+85,Vivekananda House- Multimedia Cultural Museum,Open now,Chennai,5.0,Speciality Museums,"Vivekananda House- Multimedia Cultural Museum,Chennai",Multimedia Cultural Museum,13.049460000000067,80.28061000000008
+86,Jain Temple,,Chennai,4.5,Religious Sites,"Jain Temple,Chennai",Jain Temple,13.130020000000059,80.23652000000004
+87,Kaaraneeswarar Temple,,Chennai,4.5,Religious Sites,"Kaaraneeswarar Temple,Chennai",Magan Sree Gurulinga Swamygal Temple,13.021840000000054,80.22302000000008
+88,Puttaparthi Sairam Temple Sundaram,,Chennai,4.5,Religious Sites,"Puttaparthi Sairam Temple Sundaram,Chennai","Chennai, Tamil Nadu",13.083750000000066,80.28256000000005
+89,"Dhenupureeswarar Temple, Madambakam, Chennai",Open now,Chennai,4.5,Points of Interest & Landmarks,"Dhenupureeswarar Temple, Madambakam, Chennai,Chennai",Dhenupureeswarar Temple,12.898570000000063,80.15995000000004
+90,Thiruvanmiyur Beach,,Chennai,4.0,Beaches,"Thiruvanmiyur Beach,Chennai",Thiruvanmiyur Beach,12.976860000000045,80.26681000000008
+91,Burma Bazaar,George Town/Parry’s Corner,Chennai,3.5,Flea & Street Markets,"Burma Bazaar,Chennai",Chennai Barma Bazar,16.861680000000035,81.93216000000007
+92,Phoenix Market City,Open now,Chennai,4.5,Speciality & Gift Shops,"Phoenix Market City,Chennai",Phoenix Market City,12.990450000000067,80.21620000000007
+93,Sri Maha Prathyangira Devi,,Chennai,5.0,Religious Sites,"Sri Maha Prathyangira Devi,Chennai","Chennai, Tamil Nadu",13.083750000000066,80.28256000000005
+94,Sri Ramakrishna Math,,Chennai,4.5,"['Points of Interest & Landmarks', 'Architectural Buildings']","Sri Ramakrishna Math,Chennai",Sri Ramakrishna Math-Chennai,13.030660000000069,80.26741000000004
+95,Siruvapuri Sri Balamurugan Temple,,Chennai,4.5,Religious Sites,"Siruvapuri Sri Balamurugan Temple,Chennai","Sri Siruvapuri -Bala Murugan Nagar, Kovur, Chennai, Kancheepuram, Tamil Nadu",13.009430000000066,80.12767000000008
+96,Inox Theatre,,Chennai,3.5,Theatres,"Inox Theatre,Chennai","Theatre Street, Kolathur, Chennai, Thiruvallur, Tamil Nadu, 600099",13.120625239977299,80.22142000506699
+97,Anna Memorial,,Chennai,4.5,Monuments & Statues,"Anna Memorial,Chennai",Anna Memorial,13.065740000000062,80.28408000000007
+98,Sri Santhana Srinivasa Perumal Temple,,Chennai,5.0,Religious Sites,"Sri Santhana Srinivasa Perumal Temple,Chennai",Sri Santhana Srinivasa Perumal Alayam,13.086060000000032,80.17192000000006
+99,Kandhakottam Temple,,Chennai,4.5,Religious Sites,"Kandhakottam Temple,Chennai",Kandhakottam Temple,13.086040000000025,80.27918000000005
+100,Mystery Rooms Chennai,Nungambakkam/Marina Beach,Chennai,4.5,Escape Games,"Mystery Rooms Chennai,Chennai",Mystery Rooms,13.06800000000004,80.24718000000007
+101,Click Art Museum,Open now,Chennai,4.0,"['Art Museums', ""Children's Museums""]","Click Art Museum,Chennai",Click Art Museum,12.913250000000062,80.25029000000006
+102,Arulmigu Sri Muppathamman Temple,T. Nagar,Chennai,4.5,Religious Sites,"Arulmigu Sri Muppathamman Temple,Chennai",Arulmigu Sri Muppathamman Temple,13.052950000000067,80.23868000000004
+103,Ubbalamadugu Falls,,Chennai,3.5,Waterfalls,"Ubbalamadugu Falls,Chennai","Chennai, Tamil Nadu",13.083750000000066,80.28256000000005
+104,Sri Kurungaleeswarar Temple,Open now,Chennai,4.5,Religious Sites,"Sri Kurungaleeswarar Temple,Chennai",Kurungateeswarar Swami Thirukoil,13.07361000000003,80.19717000000009
+105,Escape Cinemas,Royapettah,Chennai,4.5,Escape Games,"Escape Cinemas,Chennai",Escape,13.05863000000005,80.26527000000004
+106,Broken Bridge,Adyar,Chennai,3.5,Bridges,"Broken Bridge,Chennai",Broken Bridge Cafe,13.017750000000035,80.27033000000006
+107,Tara Books Book Building,Thiruvanmiyur East,Chennai,5.0,Points of Interest & Landmarks,"Tara Books Book Building,Chennai",Tara Books,12.985290000000077,80.26334000000008
+108, St. Andrews Church,,Chennai,4.0,Churches & Cathedrals," St. Andrews Church,Chennai",ST. Andrew's Church,13.080250000000035,80.26318000000003
+109,Valluvar Kottam Monument,Nungambakkam/Marina Beach,Chennai,3.5,Monuments & Statues,"Valluvar Kottam Monument,Chennai",Valluvar Kottam,13.054080000000056,80.24139000000008
+110,Victory War Memorial,,Chennai,4.0,"['Points of Interest & Landmarks', 'Monuments & Statues']","Victory War Memorial,Chennai",Victory War Memorial,13.073360000000037,80.28593000000006
+111,Sri Uttara Guruvayurappan Temple,,Chennai,4.5,Religious Sites,"Sri Uttara Guruvayurappan Temple,Chennai",Shree Guruvayaurappan Temple,12.910540000000026,80.15247000000005
+112,Madras High Court,,Chennai,4.5,Government Buildings,"Madras High Court,Chennai",Madras High Court,13.085420000000056,80.28784000000007
+113,Madhya Kailash Temple,,Chennai,4.0,Religious Sites,"Madhya Kailash Temple,Chennai",Madhya Kailash Temple,13.00663000000003,80.24702000000008
+114,St George's Cathedral,Teynampet,Chennai,4.5,Churches & Cathedrals,"St George's Cathedral,Chennai",ST. George's Cathedral,13.051380000000051,80.25186000000008
+115,Palladium Mall,,Chennai,4.5,Shopping Malls,"Palladium Mall,Chennai",Palladium,12.993300000000033,80.21823000000006
+116,Our Lady of Lourdes Shrine,,Chennai,4.5,Religious Sites,"Our Lady of Lourdes Shrine,Chennai",Our Lady of Lourdes Shrine,13.109070000000031,80.24177000000003
+117,Srinivasa Perumal Temple,George Town/Parry’s Corner,Chennai,4.5,Religious Sites,"Srinivasa Perumal Temple,Chennai",Srinivasa Perumal Temple,13.119410000000073,80.08396000000005
+118,Pallikondeswarar Temple,,Chennai,4.5,Religious Sites,"Pallikondeswarar Temple,Chennai","Chennai, Tamil Nadu",13.083750000000066,80.28256000000005
+119,Jawaharlal Nehru Stadium,Nungambakkam,Chennai,4.5,Arenas & Stadiums,"Jawaharlal Nehru Stadium,Chennai",Jawaharlal Nehru Stadium,13.085170000000062,80.27038000000005

@@ -1,0 +1,121 @@
+,Tourist_spot,Area,City,Rating,Categories,Address,coordinates,latitude,longitude
+0,Qutub Minar,Mehrauli/Qutub Minar,Delhi,4.5,"['Points of Interest & Landmarks', 'Architectural Buildings']","Qutub Minar,Delhi",Qutub Minar,28.52544000000006,77.18729000000008
+1,Swaminarayan Akshardham,,Delhi,4.5,"['Religious Sites', 'Gardens']","Swaminarayan Akshardham,Delhi",Swaminarayan Akshardham,28.612900000000025,77.27708000000007
+2,Gurudwara Bangla Sahib,Open now,Delhi,4.5,"['Historic Sites', 'Religious Sites']","Gurudwara Bangla Sahib,Delhi",Gurudwara Bangla Sahib,28.625730000000033,77.20907000000005
+3,Humayun's Tomb,Minto Road,Delhi,4.5,"['Architectural Buildings', 'Religious Sites']","Humayun's Tomb,Delhi",Humayun's Tomb,28.593150000000037,77.24458000000004
+4,India Gate,Minto Road,Delhi,4.0,"['Historic Sites', 'Points of Interest & Landmarks']","India Gate,Delhi","India Gate, New Delhi, Delhi",28.613120000000038,77.22955000000007
+5,Lodhi Garden,Minto Road,Delhi,4.5,Gardens,"Lodhi Garden,Delhi",Lodhi Garden,28.59033000000005,77.22069000000005
+6,Lotus Temple,,Delhi,4.0,Religious Sites,"Lotus Temple,Delhi",LOTUS Temple,28.552950000000067,77.26160000000004
+7,Red Fort,Chandni Chowk,Delhi,4.0,"['Historic Sites', 'Points of Interest & Landmarks']","Red Fort,Delhi",Red Fort,28.655970000000025,77.23678000000007
+8,Chandni Chowk,Chandni Chowk,Delhi,4.0,Flea & Street Markets,"Chandni Chowk,Delhi","Chandni Chowk, New Delhi, Central, Delhi",28.656210000000044,77.23210000000006
+9,Hauz Khas Village,Hauz Khas Village,Delhi,4.5,Neighbourhoods,"Hauz Khas Village,Delhi","Hauz Khas Village, Hauz Khas, New Delhi, South, Delhi",28.553450000000055,77.19416000000007
+10,Rashtrapati Bhavan,Minto Road,Delhi,4.5,Architectural Buildings,"Rashtrapati Bhavan,Delhi",Rashtrapati Bhavan,28.614160000000027,77.20354000000003
+11,Delhi Airport Metro Express,Open now,Delhi,4.5,Public Transportation Systems,"Delhi Airport Metro Express,Delhi",New Delhi Airport Express Metro Station,28.64253000000008,77.22369000000003
+12,Select Citywalk,Open now,Delhi,4.5,Shopping Malls,"Select Citywalk,Delhi",Select City Walk Mall,28.529330000000073,77.21897000000007
+13,ISKCON Temple Delhi,Minto Road,Delhi,4.5,"['Architectural Buildings', 'Religious Sites']","ISKCON Temple Delhi,Delhi",Iskcon Temple,28.556130000000053,77.25417000000004
+14,Rajpath,Minto Road,Delhi,4.5,"['Historic Sites', 'Points of Interest & Landmarks']","Rajpath,Delhi","Rajpath, Connaught Place, New Delhi, Delhi",28.614430000000027,77.21856000000008
+15,Gandhi Smriti,,Delhi,4.5,Speciality Museums,"Gandhi Smriti,Delhi",Gandhi Smriti,28.60161000000005,77.21456000000006
+16,Birla Mandir Temple (Lakshmi Narayan),,Delhi,4.5,Religious Sites,"Birla Mandir Temple (Lakshmi Narayan),Delhi",Birla Mandir,28.632640000000038,77.19929000000008
+17,Connaught Place,Minto Road,Delhi,4.0,Points of Interest & Landmarks,"Connaught Place,Delhi","Delhi, Connaught Place, New Delhi, Delhi",28.63409000000007,77.21693000000005
+18,Dilli Haat,Mahrauli,Delhi,4.0,Flea & Street Markets,"Dilli Haat,Delhi",Dilli Haat,28.57298000000003,77.20885000000004
+19,Chhatarpur Temple,Chattarpur,Delhi,4.5,Religious Sites,"Chhatarpur Temple,Delhi",Chhatarpur Temple,28.503070000000037,77.17837000000003
+20,Delhi Metro,Chandni Chowk,Delhi,4.5,Public Transportation Systems,"Delhi Metro,Delhi",Delhi Metro,28.67975000000007,77.10251000000005
+21,Gurudwara Sis Ganj Sahib,Open now,Delhi,4.5,Religious Sites,"Gurudwara Sis Ganj Sahib,Delhi",Gurudwara Sis Ganj Sahib,28.656180000000063,77.23231000000004
+22,Sarojini Nagar Market,Minto Road,Delhi,4.0,Flea & Street Markets,"Sarojini Nagar Market,Delhi",Sarojini Nagar Market,28.57737000000003,77.19541000000004
+23,Khan Market,Khan Market/Lodhi Garden,Delhi,4.0,Flea & Street Markets,"Khan Market,Delhi","Khan Market, Lodhi Estate, New Delhi, South East, Delhi",28.600450000000023,77.22598000000005
+24,Mughal Garden,,Delhi,4.5,Gardens,"Mughal Garden,Delhi",Mughal Garden,28.666760000000068,77.13091000000003
+25,National Rail Museum,Chanakyapuri/Lutyens' Delhi,Delhi,4.0,Speciality Museums,"National Rail Museum,Delhi",National Rail Museum,28.585540000000037,77.18101000000007
+26,Raj Ghat,,Delhi,4.0,Historic Sites,"Raj Ghat,Delhi","Raj Ghat, New Delhi, Central, Delhi",28.64232000000004,77.24702000000008
+27,Crafts Museum,Nizamuddin,Delhi,4.0,Art Museums,"Crafts Museum,Delhi",Crafts Museum,28.612660000000062,77.24205000000006
+28,National Museum,,Delhi,4.0,Speciality Museums,"National Museum,Delhi",National Museum,28.61146000000008,77.21929000000006
+29,National Gandhi Museum,Minto Road,Delhi,4.5,Speciality Museums,"National Gandhi Museum,Delhi",National Gandhi Museum,28.63906000000003,77.24599000000006
+30,Indira Gandhi Memorial Museum,Minto Road,Delhi,4.5,History Museums,"Indira Gandhi Memorial Museum,Delhi",Indira Gandhi Memorial,28.600240000000042,77.20550000000003
+31,DLF Promenade Mall,Vasant Kunj/Vasant Vihar,Delhi,4.5,Shopping Malls,"DLF Promenade Mall,Delhi",DLF Promenade Mall,28.54230000000007,77.15637000000004
+32,Agrasen Ki Baoli - Leamigo,,Delhi,4.0,"['Historic Sites', 'Architectural Buildings']","Agrasen Ki Baoli - Leamigo,Delhi",Agrasen Ki Baoli,28.62602000000004,77.22495000000004
+33,Sunder Nursery Park,,Delhi,4.5,"['Parks', 'Gardens']","Sunder Nursery Park,Delhi","Sunder Nursery, Nizamuddin, New Delhi, South East, Delhi",28.595770000000073,77.24670000000003
+34,Majnu Ka Tilla,,Delhi,4.5,Historic Sites,"Majnu Ka Tilla,Delhi","Majnu Ka Tilla, New Delhi, North, Delhi",28.698930000000075,77.22716000000008
+35,Hazrat Nizamuddin Darga,Minto Road,Delhi,4.0,"['Points of Interest & Landmarks', 'Religious Sites']","Hazrat Nizamuddin Darga,Delhi",Hazrat Nizamuddin Dargah,28.59176000000008,77.24158000000006
+36,Jantar Mantar,Connaught Place/Janpath,Delhi,4.0,Observatories & Planetariums,"Jantar Mantar,Delhi",Jantar Mantar,28.628310000000056,77.21658000000008
+37,Mehrauli Archaeological Park,,Delhi,4.5,"['Historic Sites', 'Ancient Ruins']","Mehrauli Archaeological Park,Delhi",Mehrauli Archaeological Park,28.520060000000058,77.18939000000006
+38,Purana Qila,Minto Road,Delhi,4.0,Historic Sites,"Purana Qila,Delhi",Purana Qila,28.646510000000035,77.21785000000006
+39,National Gallery of Modern Art,Minto Road,Delhi,4.5,Art Museums,"National Gallery of Modern Art,Delhi",National Gallery of Modern Art,28.61032000000006,77.23396000000008
+40,Children's Park,,Delhi,4.0,"['Parks', 'Playgrounds']","Children's Park,Delhi",Children's Park,28.718940000000032,77.12995000000006
+41,Lajpat Nagar Central Market,,Delhi,4.5,Flea & Street Markets,"Lajpat Nagar Central Market,Delhi",Central Market-Lajpat Nagar,28.569990000000075,77.24132000000003
+42,Safdarjung's Tomb,Minto Road,Delhi,4.0,Points of Interest & Landmarks,"Safdarjung's Tomb,Delhi",Safdarjung's Tomb,28.58949000000007,77.21267000000006
+43,Parliament House,Connaught Place/Janpath,Delhi,4.0,Government Buildings,"Parliament House,Delhi",Parliament House,28.61851000000007,77.20940000000007
+44,Janpath Market,Connaught Place/Janpath,Delhi,4.0,Flea & Street Markets,"Janpath Market,Delhi",Aggarwal Store,28.62191000000007,77.21648000000005
+45,Karol Bagh,,Delhi,4.0,Neighbourhoods,"Karol Bagh,Delhi","Karol Bāgh, Central, Delhi",28.651360000000068,77.19072000000006
+46,Habitat World Convention Centre,Minto Road,Delhi,4.5,Convention Centres,"Habitat World Convention Centre,Delhi",Convention Center,28.63743000000005,77.24868000000004
+47,Sai Baba Temple,,Delhi,4.5,Religious Sites,"Sai Baba Temple,Delhi",Sai Baba Temple,28.587570000000028,77.00318000000004
+48,Shri Hanuman Mandir,,Delhi,4.0,Monuments & Statues,"Shri Hanuman Mandir,Delhi",Shri Hanuman Mandir,28.747220000000027,77.24763000000007
+49,Jhandewala Devi Mandir l Temple,,Delhi,4.5,Points of Interest & Landmarks,"Jhandewala Devi Mandir l Temple,Delhi",Jhandewalan Devi Mandir,28.64945000000006,77.20430000000005
+50,"Malai Mandir, New Delhi",,Delhi,4.5,Religious Sites,"Malai Mandir, New Delhi,Delhi",Malai Mandir,28.567080000000033,77.16574000000008
+51,Pacific Mall,,Delhi,4.0,Shopping Malls,"Pacific Mall,Delhi",Pacific Mall,28.706070000000068,77.14304000000004
+52,Plaza Premium Lounge,Open now,Delhi,4.0,Airport Lounges,"Plaza Premium Lounge,Delhi",Plaza Premium Lounge-Igi Terminal 1d,28.562780000000032,77.12076000000008
+53,Discover India by Car,,Delhi,5.0,Taxis & Shuttles,"Discover India by Car,Delhi",Discover India,28.62996000000004,77.22021000000007
+54,Nehru Park,Chanakyapuri/Lutyens' Delhi,Delhi,4.0,Parks,"Nehru Park,Delhi",Nehru Park,28.59039000000007,77.19312000000008
+55,Guruji Travels Pvt Ltd,Open now,Delhi,5.0,Taxis & Shuttles,"Guruji Travels Pvt Ltd,Delhi",Guruji Travels,28.739100000000064,77.19770000000005
+56,Isa Khan's Tomb,Nizamuddin,Delhi,4.0,Architectural Buildings,"Isa Khan's Tomb,Delhi",Isa Khan's Tomb,28.592300000000023,77.24538000000007
+57,Saffron Palate,,Delhi,5.0,Cooking Classes,"Saffron Palate,Delhi",Saffron,28.83370000000008,77.09864000000005
+58,Tastesutra,Open now,Delhi,5.0,Cooking Classes,"Tastesutra,Delhi",Tastesutra,28.57042000000007,77.23748000000006
+59,Awaken Inner Buddha Yoga &amp; Meditation,,Delhi,5.0,"['Health Clubs', 'Yoga & Pilates']","Awaken Inner Buddha Yoga &amp; Meditation,Delhi","Delhi, Vera Cruz, Díli",-8.55860999999993,125.57361000000003
+60,Car with Driver North India,,Delhi,5.0,Taxis & Shuttles,"Car with Driver North India,Delhi","North Drive Road, Patel Nagar, New Delhi, West, Delhi, 110008",28.65662479725067,77.16305651809371
+61,Incredible India by Car,,Delhi,5.0,Taxis & Shuttles,"Incredible India by Car,Delhi",Incredible India,28.633390000000077,77.20691000000005
+62,Sawadhee Traditional Thai Spa,,Delhi,4.5,Spas,"Sawadhee Traditional Thai Spa,Delhi","Delhi, Vera Cruz, Díli",-8.55860999999993,125.57361000000003
+63,"Chi, The Spa",Connaught Place/Janpath,Delhi,5.0,Spas,"Chi, The Spa,Delhi",The Spa,28.659700000000043,77.09161000000006
+64,Mystery Rooms,Open now,Delhi,4.5,Escape Games,"Mystery Rooms,Delhi",Mystery Rooms,28.647100000000023,77.12666000000007
+65,Indian Food Cooking Classes,Open now,Delhi,5.0,Cooking Classes,"Indian Food Cooking Classes,Delhi",Cooking Classes,28.63680000000005,77.09559000000007
+66,Taj Way Cabs,Open now,Delhi,5.0,Taxis & Shuttles,"Taj Way Cabs,Delhi","Delhi, Connaught Place, New Delhi, Delhi",28.63409000000007,77.21693000000005
+67,The Hidden Hour,Hauz Khas Village,Delhi,4.5,Escape Games,"The Hidden Hour,Delhi",The Hidden Eye,28.539690000000064,77.11719000000005
+68,Kumar Tourist Taxi Service new Delhi India,Connaught Place/Janpath,Delhi,5.0,Taxis & Shuttles,"Kumar Tourist Taxi Service new Delhi India,Delhi",Kumar Tourist Taxi Service,28.635430000000042,77.22086000000007
+69,Delhi Dance Academy,,Delhi,5.0,"['Lessons & Workshops', 'Game & Entertainment Centres']","Delhi Dance Academy,Delhi",Delhi Dance Academy,28.561090000000036,77.24074000000007
+70,Gozo cabs,Open now,Delhi,4.0,Taxis & Shuttles,"Gozo cabs,Delhi","Delhi, Connaught Place, New Delhi, Delhi",28.63409000000007,77.21693000000005
+71,The Carpet Cellar,,Delhi,5.0,Speciality & Gift Shops,"The Carpet Cellar,Delhi","Delhi, Vera Cruz, Díli",-8.55860999999993,125.57361000000003
+72,IndeChauffeur Satbir Singh,,Delhi,5.0,Taxis & Shuttles,"IndeChauffeur Satbir Singh,Delhi","Delhi, Vera Cruz, Díli",-8.55860999999993,125.57361000000003
+73,Kita Private Taxi,Open now,Delhi,5.0,Taxis & Shuttles,"Kita Private Taxi,Delhi","Delhi, Vera Cruz, Díli",-8.55860999999993,125.57361000000003
+74,Amin Tours,Open now,Delhi,5.0,"['Cultural Tours', 'Historical & Heritage Tours']","Amin Tours,Delhi",Delhi Tours,28.63567000000006,77.22021000000007
+75,"Indriya Wellness, Spa &amp; Salon",,Delhi,5.0,Spas,"Indriya Wellness, Spa &amp; Salon,Delhi",Wellness,28.523280000000057,77.23861000000005
+76,Keeper Landwey,Open now,Delhi,5.0,"['Multi-day Tours', 'Cultural Tours']","Keeper Landwey,Delhi","Delhi, Vera Cruz, Díli",-8.55860999999993,125.57361000000003
+77,Buzzaria Dukaan,Mehrauli/Qutub Minar,Delhi,5.0,Speciality & Gift Shops,"Buzzaria Dukaan,Delhi",Buzzaria,28.523660000000064,77.19081000000006
+78,Pioneer Holidays,Open now,Delhi,5.0,"['City Tours', 'Cultural Tours']","Pioneer Holidays,Delhi",De Pioneer Holidays India,28.56836000000004,77.21735000000007
+79,"Aheli Spa, The Roseate",,Delhi,5.0,Spas,"Aheli Spa, The Roseate,Delhi","Delhi, Vera Cruz, Díli",-8.55860999999993,125.57361000000003
+80,Old Delhi Bazaar Walk &amp; Haveli Visit,Minto Road,Delhi,5.0,"['Cultural Tours', 'Historical & Heritage Tours']","Old Delhi Bazaar Walk &amp; Haveli Visit,Delhi","Delhi, Vera Cruz, Díli",-8.55860999999993,125.57361000000003
+81,Driver India Private Tours,,Delhi,5.0,"['Multi-day Tours', 'Historical & Heritage Tours']","Driver India Private Tours,Delhi",India Dream Tours Private Limited,28.831000000000074,77.20005000000003
+82,Kuber Tours,Open now,Delhi,5.0,Taxis & Shuttles,"Kuber Tours,Delhi","Delhi, Connaught Place, New Delhi, Delhi",28.63409000000007,77.21693000000005
+83,Tony Bike Centre,,Delhi,4.5,Equipment Hire,"Tony Bike Centre,Delhi",Tony Bike Centre-Royal Enfield,28.64775000000003,77.19476000000003
+84,Tirupati Cabs,Open now,Delhi,5.0,Taxis & Shuttles,"Tirupati Cabs,Delhi",Tirupati,28.63387000000006,77.22438000000005
+85,WanderOn,,Delhi,5.0,"['Multi-day Tours', 'Adrenaline & Extreme Tours']","WanderOn,Delhi","Delhi, Connaught Place, New Delhi, Delhi",28.63409000000007,77.21693000000005
+86,Auraveda Panchakarma Centre,,Delhi,5.0,Spas,"Auraveda Panchakarma Centre,Delhi","Delhi, Vera Cruz, Díli",-8.55860999999993,125.57361000000003
+87,MasterChef Cooking Classes,,Delhi,5.0,Cooking Classes,"MasterChef Cooking Classes,Delhi",Cooking Classes,28.63680000000005,77.09559000000007
+88,Alpha India Holiday,,Delhi,5.0,Taxis & Shuttles,"Alpha India Holiday,Delhi",Indian Holiday,28.63226000000003,77.22741000000008
+89,Trinetra Tours,Minto Road,Delhi,5.0,"['Multi-day Tours', 'Cultural Tours']","Trinetra Tours,Delhi",Trinetra Tours,28.640100000000075,77.07555000000008
+90,Ambience Mall,Vasant Kunj/Vasant Vihar,Delhi,4.5,"['Speciality & Gift Shops', 'Shopping Malls']","Ambience Mall,Delhi",Ambience Mall,28.540850000000034,77.15539000000007
+91,Lazer Crazer,,Delhi,5.0,Game & Entertainment Centres,"Lazer Crazer,Delhi","Laser Ave, Redwood Falls, Minnesota, 56283",44.56712190482784,-95.14724786183307
+92,Prime India Travel,Open now,Delhi,5.0,Taxis & Shuttles,"Prime India Travel,Delhi",Prime India,28.526890000000037,77.21658000000008
+93,Golden Triangle Delhi Agra Jaipur Tour.,Open now,Delhi,5.0,"['City Tours', 'Multi-day Tours']","Golden Triangle Delhi Agra Jaipur Tour.,Delhi","Delhi, Connaught Place, New Delhi, Delhi",28.63409000000007,77.21693000000005
+94,Manoj Private Tour Driver India,Vasant Kunj/Vasant Vihar,Delhi,5.0,Taxis & Shuttles,"Manoj Private Tour Driver India,Delhi","Delhi, Connaught Place, New Delhi, Delhi",28.63409000000007,77.21693000000005
+95,Santram Holidays,,Delhi,4.5,Taxis & Shuttles,"Santram Holidays,Delhi",Santram Holidays,28.660820000000058,77.28072000000003
+96,Escape Reality Delhi,Open now,Delhi,5.0,Escape Games,"Escape Reality Delhi,Delhi",Reality,28.628100000000074,77.22210000000007
+97,Taxis On Rent,Open now,Delhi,5.0,Taxis & Shuttles,"Taxis On Rent,Delhi","Delhi, Norfolk County, Ontario",42.85265300000003,-80.49914699999994
+98,Agra Day Tour Packages,Open now,Delhi,5.0,"['City Tours', 'Historical & Heritage Tours']","Agra Day Tour Packages,Delhi",K V Tour Packages,28.658180000000073,77.27715000000006
+99,India Taxi Services,Open now,Delhi,5.0,Taxis & Shuttles,"India Taxi Services,Delhi",Delhi Taxi Services,28.59618000000006,77.05100000000004
+100,Delhi Taxi Hire,,Delhi,5.0,Taxis & Shuttles,"Delhi Taxi Hire,Delhi","Delhi, Connaught Place, New Delhi, Delhi",28.63409000000007,77.21693000000005
+101,Private Driver In India,Open now,Delhi,5.0,"['Cultural Tours', 'Taxis & Shuttles']","Private Driver In India,Delhi",Driven,28.554230000000075,77.24360000000007
+102,Presidential Wheels,,Delhi,5.0,Taxis & Shuttles,"Presidential Wheels,Delhi","residential, Mukundpur, New Delhi, North, Delhi, 110042",28.740049986513355,77.18391996677218
+103,INDIA taxi &amp; tours,,Delhi,5.0,Taxis & Shuttles,"INDIA taxi &amp; tours,Delhi",Delhi Tours,28.63567000000006,77.22021000000007
+104,Flexible Driver in India,Open now,Delhi,5.0,Taxis & Shuttles,"Flexible Driver in India,Delhi",Driven,28.554230000000075,77.24360000000007
+105,Chaman Duggal Private Tours,Minto Road,Delhi,5.0,"['City Tours', 'Cultural Tours']","Chaman Duggal Private Tours,Delhi","Delhi, Vera Cruz, Díli",-8.55860999999993,125.57361000000003
+106,Delhi Food Walks,Chandni Chowk,Delhi,5.0,"['Cultural Tours', 'Walking Tours']","Delhi Food Walks,Delhi",Delhi,28.587870000000066,77.16890000000006
+107,Perfect Agra Tours,Open now,Delhi,5.0,"['Multi-day Tours', 'Historical & Heritage Tours']","Perfect Agra Tours,Delhi",Perfect,28.701230000000066,77.27991000000003
+108,Travel India One Day,Open now,Delhi,5.0,"['City Tours', 'Multi-day Tours']","Travel India One Day,Delhi",One Day,28.709550000000036,77.21387000000004
+109,India Private Tourist Taxi,Saket,Delhi,5.0,Taxis & Shuttles,"India Private Tourist Taxi,Delhi",TCTT Tourism Private Ltd,28.630330000000072,77.07969000000008
+110,Cook with Surbhi,Open now,Delhi,5.0,Cooking Classes,"Cook with Surbhi,Delhi","Delhi, Vera Cruz, Díli",-8.55860999999993,125.57361000000003
+111,Saniya Tour And Travels,Mehrauli/Qutub Minar,Delhi,5.0,"['Cultural Tours', 'Historical & Heritage Tours']","Saniya Tour And Travels,Delhi",Soniya Tour & Travels,28.69387000000006,77.04831000000007
+112,India Private Taxi Driver,Open now,Delhi,5.0,Taxis & Shuttles,"India Private Taxi Driver,Delhi","Delhi, Connaught Place, New Delhi, Delhi",28.63409000000007,77.21693000000005
+113,Taj Destination Tours,Mehrauli/Qutub Minar,Delhi,5.0,"['Multi-day Tours', 'Historical & Heritage Tours']","Taj Destination Tours,Delhi",Destination,22.823300000000074,88.23650000000004
+114,Akshay Private Tourist Taxi,Open now,Delhi,5.0,Taxis & Shuttles,"Akshay Private Tourist Taxi,Delhi","Delhi, Vera Cruz, Díli",-8.55860999999993,125.57361000000003
+115,Ashok's Taxi Tours,,Delhi,5.0,"['Multi-day Tours', 'Sightseeing Tours']","Ashok's Taxi Tours,Delhi","Delhi, Vera Cruz, Díli",-8.55860999999993,125.57361000000003
+116,Travel India by Private Taxi,,Delhi,5.0,Taxis & Shuttles,"Travel India by Private Taxi,Delhi","Delhi, Connaught Place, New Delhi, Delhi",28.63409000000007,77.21693000000005
+117,DelhiByCycle,Minto Road,Delhi,5.0,"['City Tours', 'Cultural Tours']","DelhiByCycle,Delhi","Delhi, Vera Cruz, Díli",-8.55860999999993,125.57361000000003
+118,Reality Tours &amp; Travel,,Delhi,5.0,"['City Tours', 'Cultural Tours']","Reality Tours &amp; Travel,Delhi","Delhi, Vera Cruz, Díli",-8.55860999999993,125.57361000000003
+119,Incredible Real India Tours &amp; Travels,Greater Kailash I,Delhi,5.0,"['City Tours', 'Cultural Tours']","Incredible Real India Tours &amp; Travels,Delhi","Delhi, Connaught Place, New Delhi, Delhi",28.63409000000007,77.21693000000005

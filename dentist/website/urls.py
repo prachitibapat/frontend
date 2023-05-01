@@ -11,8 +11,14 @@ urlpatterns = [
     path('cities.html', views.cities, name='cities'),
     path('signout', views.signout, name="signout"),
     path('mumbai.html', views.mumbai, name="mumbai"),
-    path('location_show.html', views.location_show, name="location_show"),
-    # path('team.html', views.team, name='team'),
-    # path('testimonial.html', views.testimonial, name='testimonial')
+    path('mumbai_show.html', views.mumbai_show, name="mumbai_show"),
+    path('delhi.html', views.delhi, name="delhi"),
+    path('delhi_show.html', views.delhi_show, name="delhi_show"),
+    path('kolkata.html', views.kolkata, name="kolkata"),
+    path('kolkata_show.html', views.kolkata_show, name="kolkata_show"),
+    path('jaipur.html', views.jaipur, name="jaipur"),
+    path('jaipur_show.html', views.jaipur_show, name="jaipur_show"),
+    path('chennai.html', views.chennai, name="chennai"),
+    path('chennai_show.html', views.chennai_show, name="chennai_show"),
 ]
 
