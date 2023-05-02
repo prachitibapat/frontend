@@ -190,17 +190,27 @@
               <h6 class="section-title text-center text-primary text-uppercase">Try it Out!</h6>
               <h1 class="mb-5">Get your Recommendations Now!</h1>
               <div class="d-grid gap-2">
-                <form action="/mumbai.html" method="post">
+                <form method="post">
                   {% csrf_token %}
                   <input type="hidden" name="action" value="button2">
                   <button type="submit" class="btn btn-primary btn-block" style="width: 100%;">
-                    Login
+                    Click Me To get Recommendations!
+                  </button>
+                </form>
+              </div>
+              <br>
+              <div class="d-grid gap-2">
+                <form method="post">
+                  {% csrf_token %}
+                  <input type="hidden" name="action" value="button3">
+                  <button type="submit" class="btn btn-primary btn-block" style="width: 100%;">
+                    See the previous results
                   </button>
                 </form>
               </div>
           </div>
           <h1 class="display-3 text-black mb-4 animated slideInDown">
-            {{Mumbai_data}}
+            {{Mumbai_data}} 
           </h1>
         </div>
       </div>

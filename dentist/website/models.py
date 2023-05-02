@@ -110,6 +110,7 @@ class Mumbai_User_Output(models.Model):
     best_route = models.CharField(max_length=255)
     current_location = models.CharField(max_length=255)
     top_loc_name_dis_time = models.CharField(max_length=100000)
+    all_lat_lon = models.CharField(max_length=255)
 
 class Delhi_User_Output(models.Model):
     username = models.CharField(max_length=255)
@@ -125,6 +126,7 @@ class Delhi_User_Output(models.Model):
     best_route = models.CharField(max_length=255)
     current_location = models.CharField(max_length=255)
     top_loc_name_dis_time = models.CharField(max_length=100000)
+    all_lat_lon = models.CharField(max_length=255)
     
 class Chennai_User_Output(models.Model):
     username = models.CharField(max_length=255)
@@ -140,6 +142,7 @@ class Chennai_User_Output(models.Model):
     best_route = models.CharField(max_length=255)
     current_location = models.CharField(max_length=255)
     top_loc_name_dis_time = models.CharField(max_length=100000)
+    all_lat_lon = models.CharField(max_length=255)
     
 class Kolkata_User_Output(models.Model):
     username = models.CharField(max_length=255)
@@ -155,6 +158,7 @@ class Kolkata_User_Output(models.Model):
     best_route = models.CharField(max_length=255)
     current_location = models.CharField(max_length=255)
     top_loc_name_dis_time = models.CharField(max_length=100000)
+    all_lat_lon = models.CharField(max_length=255)
     
 class Jaipur_User_Output(models.Model):
     username = models.CharField(max_length=255)
@@ -170,3 +174,4 @@ class Jaipur_User_Output(models.Model):
     best_route = models.CharField(max_length=255)
     current_location = models.CharField(max_length=255)
     top_loc_name_dis_time = models.CharField(max_length=100000)
+    all_lat_lon = models.CharField(max_length=255)

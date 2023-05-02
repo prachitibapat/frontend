@@ -85,13 +85,29 @@ def signup(request):
 
         myuser.save()
 
-        user_categories = User_Categories()
-        user_categories.username = username
-        user_categories.save()
+        mumbai_user_categories = Mumbai_User_Output()
+        mumbai_user_categories.username = username
+        mumbai_user_categories.save()
 
-        user_output = User_Output()
+        delhi_user_output = Delhi_User_Output()
+        delhi_user_output.username = username
+        delhi_user_output.save()
+
+        jaipur_user_output = Jaipur_User_Output()
+        jaipur_user_output.username = username
+        jaipur_user_output.save()
+
+        chennai_user_output = Chennai_User_Output()
+        chennai_user_output.username = username
+        chennai_user_output.save()
+
+        kolkata_user_output = Kolkata_User_Output()
+        kolkata_user_output.username = username
+        kolkata_user_output.save()
+
+        user_output = User_Categories()
         user_output.username = username
-        user_output
+        user_output.save()
 
         messages.success(
             request, "Your Account has been created succesfully")
@@ -545,6 +561,7 @@ def mumbai(request):
             user_output.tabu_route = tabu_route
             user_output.genetic_route = genetic_route
             user_output.simulated_annealing_route = simulated_annealing_route
+            user_output.all_lat_lon = actual_route_sequence
             user_output.save()
 
             return redirect('mumbai_show')   
@@ -582,6 +599,9 @@ def mumbai(request):
 
             user_categories_object.mumbai_all_spots = filtered_categories
             user_categories_object.save()
+        
+        elif request.POST.get('action') == 'button3':
+            return redirect('mumbai_show') 
 
     mumbai_data = []
     for x in Mumbai.objects.all().values():
@@ -614,6 +634,10 @@ def mumbai_show(request):
     genetic_route = ast.literal_eval(genetic_route)
     simulated_annealing_route = user_output.simulated_annealing_route
     simulated_annealing_route = ast.literal_eval(simulated_annealing_route)
+    all_lat_lon = user_output.all_lat_lon
+    all_lat_lon = ast.literal_eval(all_lat_lon)
+    print(all_lat_lon)
+    print(type(all_lat_lon))
     if tabu_distance <= genetic_distance and tabu_distance <= simulated_annealing_distance:
         best_route = tabu_route
     elif genetic_distance <= simulated_annealing_distance:
@@ -667,6 +691,20 @@ def mumbai_show(request):
                'BR' : best_route,
                'CL' : route_text,
                'MAPS' : map_html}
+    
+    if request.POST.get('action') == 'button':
+        link_maker = "https://www.google.com/maps/dir/?api=1&origin=" + all_lat_lon[0][0] + "," + all_lat_lon[0][1] + "&waypoints="
+        link_maker = link_maker + str(all_lat_lon[1][0]) + "," + str(all_lat_lon[1][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[2][0]) + "," + str(all_lat_lon[2][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[3][0]) + "," + str(all_lat_lon[3][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[4][0]) + "," + str(all_lat_lon[4][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[5][0]) + "," + str(all_lat_lon[7][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[6][0]) + "," + str(all_lat_lon[6][1]) + "|"
+        link_maker = link_maker + "&destination=" + str(all_lat_lon[7][0]) + "," + str(all_lat_lon[7][1])
+
+        print(link_maker)
+        return redirect(link_maker)
+
     return render(request, 'mumbai_show.html', context)
 
 #DELHI
@@ -690,9 +728,9 @@ def delhi(request):
             # print(type(current_latitude))
             # print(type(current_location))
             
-            current_latitude = "28.648247"
-            current_longitude = "77.205857"
-            current_location = ["28.648247","77.205857"]
+            current_latitude = "28.609927"
+            current_longitude = "77.211876"
+            current_location = ["28.609927","77.211876"]
 
             delhi_data = []
 
@@ -1111,6 +1149,7 @@ def delhi(request):
             user_output.tabu_route = tabu_route
             user_output.genetic_route = genetic_route
             user_output.simulated_annealing_route = simulated_annealing_route
+            user_output.all_lat_lon = actual_route_sequence
             user_output.save()
 
             return redirect('delhi_show')   
@@ -1148,6 +1187,9 @@ def delhi(request):
 
             user_categories_object.delhi_all_spots = filtered_categories
             user_categories_object.save()
+        
+        elif request.POST.get('action') == 'button3':
+            return redirect('delhi_show')
 
     delhi_data = []
     for x in Delhi.objects.all().values():
@@ -1179,6 +1221,8 @@ def delhi_show(request):
     genetic_route = ast.literal_eval(genetic_route)
     simulated_annealing_route = user_output.simulated_annealing_route
     simulated_annealing_route = ast.literal_eval(simulated_annealing_route)
+    all_lat_lon = user_output.all_lat_lon
+    all_lat_lon = ast.literal_eval(all_lat_lon)
     if tabu_distance <= genetic_distance and tabu_distance <= simulated_annealing_distance:
         best_route = tabu_route
     elif genetic_distance <= simulated_annealing_distance:
@@ -1233,6 +1277,21 @@ def delhi_show(request):
                'BR' : best_route,
                'CL' : route_text,
                'MAPS' : map_html}
+    
+    if request.POST.get('action') == 'button':
+        link_maker = "https://www.google.com/maps/dir/?api=1&origin=" + all_lat_lon[0][0] + "," + all_lat_lon[0][1] + "&waypoints="
+        link_maker = link_maker + str(all_lat_lon[1][0]) + "," + str(all_lat_lon[1][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[2][0]) + "," + str(all_lat_lon[2][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[3][0]) + "," + str(all_lat_lon[3][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[4][0]) + "," + str(all_lat_lon[4][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[5][0]) + "," + str(all_lat_lon[7][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[6][0]) + "," + str(all_lat_lon[6][1]) + "|"
+        link_maker = link_maker + "&destination=" + str(all_lat_lon[7][0]) + "," + str(all_lat_lon[7][1])
+
+        print(link_maker)
+        return redirect(link_maker)
+
+    return render(request, 'mumbai_show.html', context)
     return render(request, 'delhi_show.html', context)
 
 #KOLKATA
@@ -1266,6 +1325,7 @@ def kolkata(request):
             for x, y in zip(Kolkata.objects.all().values(), filtered_categories):
                 if y != "Null" and all(x.values()):
                     kolkata_data.append(x)
+            print(kolkata_data)
 
             def googleapi_resource_extraction():
                 
@@ -1674,6 +1734,7 @@ def kolkata(request):
             user_output.tabu_route = tabu_route
             user_output.genetic_route = genetic_route
             user_output.simulated_annealing_route = simulated_annealing_route
+            user_output.all_lat_lon = actual_route_sequence
             user_output.save()
 
             return redirect('kolkata_show')   
@@ -1711,6 +1772,9 @@ def kolkata(request):
 
             user_categories_object.kolkata_all_spots = filtered_categories
             user_categories_object.save()
+        
+        elif request.POST.get('action') == 'button3':
+            return redirect('kolkata_show') 
 
     kolkata_data = []
     for x in Kolkata.objects.all().values():
@@ -1742,6 +1806,8 @@ def kolkata_show(request):
     genetic_route = ast.literal_eval(genetic_route)
     simulated_annealing_route = user_output.simulated_annealing_route
     simulated_annealing_route = ast.literal_eval(simulated_annealing_route)
+    all_lat_lon = user_output.all_lat_lon
+    all_lat_lon = ast.literal_eval(all_lat_lon)
     if tabu_distance <= genetic_distance and tabu_distance <= simulated_annealing_distance:
         best_route = tabu_route
     elif genetic_distance <= simulated_annealing_distance:
@@ -1795,6 +1861,20 @@ def kolkata_show(request):
                'BR' : best_route,
                'CL' : route_text,
                'MAPS' : map_html}
+    
+    if request.POST.get('action') == 'button':
+        link_maker = "https://www.google.com/maps/dir/?api=1&origin=" + all_lat_lon[0][0] + "," + all_lat_lon[0][1] + "&waypoints="
+        link_maker = link_maker + str(all_lat_lon[1][0]) + "," + str(all_lat_lon[1][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[2][0]) + "," + str(all_lat_lon[2][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[3][0]) + "," + str(all_lat_lon[3][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[4][0]) + "," + str(all_lat_lon[4][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[5][0]) + "," + str(all_lat_lon[7][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[6][0]) + "," + str(all_lat_lon[6][1]) + "|"
+        link_maker = link_maker + "&destination=" + str(all_lat_lon[7][0]) + "," + str(all_lat_lon[7][1])
+
+        print(link_maker)
+        return redirect(link_maker)
+    
     return render(request, 'kolkata_show.html', context)
 
 #CHENNAI
@@ -2237,6 +2317,7 @@ def chennai(request):
             user_output.tabu_route = tabu_route
             user_output.genetic_route = genetic_route
             user_output.simulated_annealing_route = simulated_annealing_route
+            user_output.all_lat_lon = actual_route_sequence
             user_output.save()
 
             return redirect('chennai_show')   
@@ -2275,6 +2356,9 @@ def chennai(request):
             user_categories_object.chennai_all_spots = filtered_categories
             user_categories_object.save()
 
+        elif request.POST.get('action') == 'button3':
+            return redirect('chennai_show')
+
     chennai_data = []
     for x in Chennai.objects.all().values():
         chennai_data.append(x)
@@ -2307,6 +2391,8 @@ def chennai_show(request):
     genetic_route = ast.literal_eval(genetic_route)
     simulated_annealing_route = user_output.simulated_annealing_route
     simulated_annealing_route = ast.literal_eval(simulated_annealing_route)
+    all_lat_lon = user_output.all_lat_lon
+    all_lat_lon = ast.literal_eval(all_lat_lon)
     if tabu_distance <= genetic_distance and tabu_distance <= simulated_annealing_distance:
         best_route = tabu_route
     elif genetic_distance <= simulated_annealing_distance:
@@ -2360,6 +2446,20 @@ def chennai_show(request):
                'BR' : best_route,
                'CL' : route_text,
                'MAPS' : map_html}
+    
+    if request.POST.get('action') == 'button':
+        link_maker = "https://www.google.com/maps/dir/?api=1&origin=" + all_lat_lon[0][0] + "," + all_lat_lon[0][1] + "&waypoints="
+        link_maker = link_maker + str(all_lat_lon[1][0]) + "," + str(all_lat_lon[1][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[2][0]) + "," + str(all_lat_lon[2][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[3][0]) + "," + str(all_lat_lon[3][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[4][0]) + "," + str(all_lat_lon[4][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[5][0]) + "," + str(all_lat_lon[7][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[6][0]) + "," + str(all_lat_lon[6][1]) + "|"
+        link_maker = link_maker + "&destination=" + str(all_lat_lon[7][0]) + "," + str(all_lat_lon[7][1])
+
+        print(link_maker)
+        return redirect(link_maker)
+    
     return render(request, 'chennai_show.html', context)
 
 #JAIPUR
@@ -2804,6 +2904,7 @@ def jaipur(request):
             user_output.tabu_route = tabu_route
             user_output.genetic_route = genetic_route
             user_output.simulated_annealing_route = simulated_annealing_route
+            user_output.all_lat_lon = actual_route_sequence
             user_output.save()
 
             return redirect('jaipur_show')   
@@ -2842,6 +2943,9 @@ def jaipur(request):
             user_categories_object.jaipur_all_spots = filtered_categories
             user_categories_object.save()
 
+        elif request.POST.get('action') == 'button3':
+            return redirect('jaipur_show') 
+
     jaipur_data = []
     for x in Jaipur.objects.all().values():
         jaipur_data.append(x)
@@ -2872,6 +2976,8 @@ def jaipur_show(request):
     genetic_route = ast.literal_eval(genetic_route)
     simulated_annealing_route = user_output.simulated_annealing_route
     simulated_annealing_route = ast.literal_eval(simulated_annealing_route)
+    all_lat_lon = user_output.all_lat_lon
+    all_lat_lon = ast.literal_eval(all_lat_lon)
     if tabu_distance <= genetic_distance and tabu_distance <= simulated_annealing_distance:
         best_route = tabu_route
     elif genetic_distance <= simulated_annealing_distance:
@@ -2926,4 +3032,18 @@ def jaipur_show(request):
                'BR' : best_route,
                'CL' : route_text,
                'MAPS' : map_html}
+    
+    if request.POST.get('action') == 'button':
+        link_maker = "https://www.google.com/maps/dir/?api=1&origin=" + all_lat_lon[0][0] + "," + all_lat_lon[0][1] + "&waypoints="
+        link_maker = link_maker + str(all_lat_lon[1][0]) + "," + str(all_lat_lon[1][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[2][0]) + "," + str(all_lat_lon[2][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[3][0]) + "," + str(all_lat_lon[3][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[4][0]) + "," + str(all_lat_lon[4][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[5][0]) + "," + str(all_lat_lon[7][1]) + "|"
+        link_maker = link_maker + str(all_lat_lon[6][0]) + "," + str(all_lat_lon[6][1]) + "|"
+        link_maker = link_maker + "&destination=" + str(all_lat_lon[7][0]) + "," + str(all_lat_lon[7][1])
+
+        print(link_maker)
+        return redirect(link_maker)
+    
     return render(request, 'jaipur_show.html', context)

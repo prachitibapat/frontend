@@ -194,7 +194,17 @@
                   {% csrf_token %}
                   <input type="hidden" name="action" value="button2">
                   <button type="submit" class="btn btn-primary btn-block" style="width: 100%;">
-                    Login
+                    Click Me To get Recommendations!
+                  </button>
+                </form>
+              </div>
+              <br>
+              <div class="d-grid gap-2">
+                <form method="post">
+                  {% csrf_token %}
+                  <input type="hidden" name="action" value="button3">
+                  <button type="submit" class="btn btn-primary btn-block" style="width: 100%;">
+                    See the previous results
                   </button>
                 </form>
               </div>
